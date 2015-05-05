@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 375897d7133911d4db5ca60be9c5d55a
+timeCreated: 1430786528
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemyAtacando_0
+    21300002: enemyAtacando_1
+    21300004: enemyAtacando_2
+    21300006: enemyAtacando_3
+    21300008: enemyAtacando_4
+    21300010: enemyAtacando_5
+    21300012: enemyAtacando_6
+    21300014: enemyAtacando_7
+    21300016: enemyAtacando_8
+    21300018: enemyAtacando_9
+    21300020: enemyAtacando_10
+    21300022: enemyAtacando_11
+    21300024: enemyAtacando_12
+    21300026: enemyAtacando_13
+    21300028: enemyAtacando_14
+    21300030: enemyAtacando_15
+    21300032: enemyAtacando_16
+    21300034: enemyAtacando_17
+    21300036: enemyAtacando_18
+    21300038: enemyAtacando_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemyAtacando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 860
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 860
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 860
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 860
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 696
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 696
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 696
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 696
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 532
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 532
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 532
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 532
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 368
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 368
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_18
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 368
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtacando_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 368
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
