@@ -58,6 +58,7 @@ namespace TecnoCop{
 				}
 				x_velocity = velocity;
 				x_priority = priority;
+
 			}
 			
 			/// <summary>
