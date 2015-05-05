@@ -1,6 +1,14 @@
 fileFormatVersion: 2
 guid: cbda8aa42dbcf2a4599bff6a984b77b5
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: DoubleJumpEffect_0
+    21300002: DoubleJumpEffect_1
+    21300004: DoubleJumpEffect_2
+    21300006: DoubleJumpEffect_3
+    21300008: DoubleJumpEffect_4
+    21300010: DoubleJumpEffect_5
+    21300012: DoubleJumpEffect_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -19,6 +27,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
@@ -29,6 +40,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -114,3 +126,5 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
