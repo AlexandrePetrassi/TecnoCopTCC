@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: 2f67f29b2ee05904db04d757ee2b57c5
+timeCreated: 1431110618
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: copParado_0
+    21300002: copParado_1
+    21300004: copParado_2
+    21300006: copParado_3
+    21300008: copParado_4
+    21300010: copParado_5
+    21300012: copParado_6
+    21300014: copParado_7
+    21300016: copParado_8
+    21300018: copParado_9
+    21300020: copParado_10
+    21300022: copParado_11
+    21300024: copParado_12
+    21300026: copParado_13
+    21300028: copParado_14
+    21300030: copParado_15
+    21300032: copParado_16
+    21300034: copParado_17
+    21300036: copParado_18
+    21300038: copParado_19
+    21300040: copParado_20
+    21300042: copParado_21
+    21300044: copParado_22
+    21300046: copParado_23
+    21300048: copParado_24
+    21300050: copParado_25
+    21300052: copParado_26
+    21300054: copParado_27
+    21300056: copParado_28
+    21300058: copParado_29
+    21300060: copParado_30
+    21300062: copParado_31
+    21300064: copParado_32
+    21300066: copParado_33
+    21300068: copParado_34
+    21300070: copParado_35
+    21300072: copParado_36
+    21300074: copParado_37
+    21300076: copParado_38
+    21300078: copParado_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: copParado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_5
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_6
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 826
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_10
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 628
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_18
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_19
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_21
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_22
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_23
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 430
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_26
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_27
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_30
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_31
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 232
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_33
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_35
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_36
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_37
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_38
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: copParado_39
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 34
+        width: 117
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
