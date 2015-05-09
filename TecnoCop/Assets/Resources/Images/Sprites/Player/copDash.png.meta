@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 59e7ab7abf44d9940b16847bad9946ec
-timeCreated: 1431111370
+timeCreated: 1431170395
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -80,7 +80,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_2
       rect:
@@ -90,7 +90,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_3
       rect:
@@ -100,7 +100,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_4
       rect:
@@ -110,7 +110,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_5
       rect:
@@ -120,7 +120,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_6
       rect:
@@ -130,7 +130,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_7
       rect:
@@ -140,7 +140,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_8
       rect:
@@ -150,7 +150,7 @@ TextureImporter:
         width: 152
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: copDash_9
       rect:
@@ -165,30 +165,10 @@ TextureImporter:
     - name: copDash_10
       rect:
         serializedVersion: 2
-        x: 152
-        y: 332
-        width: 152
-        height: 173
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: copDash_11
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 332
-        width: 152
-        height: 173
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: copDash_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 159
-        width: 152
-        height: 173
+        x: 50
+        y: 380
+        width: 102
+        height: 125
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
