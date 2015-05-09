@@ -1,26 +1,35 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Scenario\Paralax.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Pistol.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerDamageManager.cs" Line="1" Column="19" />
-      <File FileName="Assets\Scripts\Player\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\Character.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\Trigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\Updater.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\SubComponent.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\IUpdatable.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\AnimationManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\ModuleManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Scenario\Paralax.cs" Line="12" Column="133" />
+      <File FileName="Assets\Scripts\Enemy\EnemyAnimationManager.cs" Line="15" Column="1" />
+      <File FileName="Assets\Scripts\Common\AnimationManager.cs" Line="32" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\EnemyMove.cs" Line="109" Column="1" />
+      <File FileName="Assets\Scripts\Common\MovementManager.cs" Line="20" Column="2" />
+      <File FileName="Assets\Scripts\Player\PlayerAnimationManager.cs" Line="28" Column="5" />
+      <File FileName="Assets\Scripts\Player\Player.cs" Line="102" Column="2" />
+      <File FileName="Assets\Scripts\Player\PlayerDamageManager.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\Common\DamageManager.cs" Line="46" Column="1" />
+      <File FileName="Assets\Scripts\Common\ModuleManager.cs" Line="128" Column="2" />
+      <File FileName="Assets\Scripts\Common\IUpdatable.cs" Line="9" Column="1" />
+      <File FileName="Assets\Scripts\Common\Character.cs" Line="29" Column="1" />
+      <File FileName="Assets\Scripts\Common\CollisionManager.cs" Line="59" Column="1" />
+      <File FileName="Assets\Scripts\Player\Knockback.cs" Line="47" Column="1" />
+      <File FileName="Assets\Scripts\Player\Pistol.cs" Line="18" Column="12" />
+      <File FileName="Assets\Scripts\Player\PlayerTrigger.cs" Line="252" Column="2" />
+      <File FileName="Assets\Scripts\Common\Projectile.cs" Line="23" Column="1" />
+      <File FileName="Assets\Scripts\Common\Trigger.cs" Line="153" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\EnemyCollisionManager.cs" Line="37" Column="1" />
+      <File FileName="Assets\Scripts\Scenario\DamageCollider.cs" Line="13" Column="6" />
+      <File FileName="Assets\Scripts\Player\PlayerCollisionManager.cs" Line="37" Column="2" />
+      <File FileName="Assets\Scripts\Common\Damage.cs" Line="10" Column="2" />
+      <File FileName="Assets\Scripts\Scenario\Collideable.cs" Line="7" Column="3" />
     </Files>
-    <Pads>
-      <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\JOAO\Desktop\Projetos\TecnoCopTCC\TecnoCop\Assets\Scripts\Scenario\DamageCollider.cs" line="10" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
