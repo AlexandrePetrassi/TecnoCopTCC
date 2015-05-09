@@ -10,11 +10,13 @@ namespace TecnoCop{
 			public GameObject chargedShot; // Tiro carregado
 
 			protected override void end(){
-				Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse()));
+				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
+				bullet.tag = "Player";
 			}
 
 			protected override void release(){
-				Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse()));
+				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
+				bullet.tag = "Player";
 			}
 
 			private float angleBetweenMouse(){
