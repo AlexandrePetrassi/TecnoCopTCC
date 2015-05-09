@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 375897d7133911d4db5ca60be9c5d55a
-timeCreated: 1430786528
+timeCreated: 1431147166
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -76,7 +76,7 @@ TextureImporter:
         y: 860
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_1
@@ -86,7 +86,7 @@ TextureImporter:
         y: 860
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_2
@@ -96,7 +96,7 @@ TextureImporter:
         y: 860
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_3
@@ -106,7 +106,7 @@ TextureImporter:
         y: 860
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_4
@@ -116,7 +116,7 @@ TextureImporter:
         y: 860
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_5
@@ -126,7 +126,7 @@ TextureImporter:
         y: 696
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_6
@@ -136,7 +136,7 @@ TextureImporter:
         y: 696
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_7
@@ -146,7 +146,7 @@ TextureImporter:
         y: 696
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_8
@@ -156,7 +156,7 @@ TextureImporter:
         y: 696
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_9
@@ -166,7 +166,7 @@ TextureImporter:
         y: 696
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_10
@@ -176,7 +176,7 @@ TextureImporter:
         y: 532
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_11
@@ -186,7 +186,7 @@ TextureImporter:
         y: 532
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_12
@@ -196,7 +196,7 @@ TextureImporter:
         y: 532
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_13
@@ -206,7 +206,7 @@ TextureImporter:
         y: 532
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_14
@@ -216,7 +216,7 @@ TextureImporter:
         y: 532
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_15
@@ -226,7 +226,7 @@ TextureImporter:
         y: 368
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_16
@@ -236,7 +236,7 @@ TextureImporter:
         y: 368
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_17
@@ -246,7 +246,7 @@ TextureImporter:
         y: 368
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_18
@@ -256,7 +256,7 @@ TextureImporter:
         y: 368
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAtacando_19
@@ -266,7 +266,7 @@ TextureImporter:
         y: 368
         width: 90
         height: 164
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 438ee880ead08e04aa3b4f8c03de2d7f
-timeCreated: 1430786703
+timeCreated: 1431147204
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -96,7 +96,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_1
@@ -106,7 +106,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_2
@@ -116,7 +116,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_3
@@ -126,7 +126,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_4
@@ -136,7 +136,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_5
@@ -146,7 +146,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_6
@@ -156,7 +156,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_7
@@ -166,7 +166,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_8
@@ -176,7 +176,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_9
@@ -186,7 +186,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_10
@@ -196,7 +196,7 @@ TextureImporter:
         y: 856
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_11
@@ -206,7 +206,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_12
@@ -216,7 +216,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_13
@@ -226,7 +226,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_14
@@ -236,7 +236,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_15
@@ -246,7 +246,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_16
@@ -256,7 +256,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_17
@@ -266,7 +266,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_18
@@ -276,7 +276,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_19
@@ -286,7 +286,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_20
@@ -296,7 +296,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_21
@@ -306,7 +306,7 @@ TextureImporter:
         y: 688
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_22
@@ -316,7 +316,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_23
@@ -326,7 +326,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_24
@@ -336,7 +336,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_25
@@ -346,7 +346,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_26
@@ -356,7 +356,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_27
@@ -366,7 +366,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_28
@@ -376,7 +376,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_29
@@ -386,7 +386,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_30
@@ -396,7 +396,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_31
@@ -406,7 +406,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_32
@@ -416,7 +416,7 @@ TextureImporter:
         y: 520
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_33
@@ -426,7 +426,7 @@ TextureImporter:
         y: 352
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_34
@@ -436,7 +436,7 @@ TextureImporter:
         y: 352
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_35
@@ -446,7 +446,7 @@ TextureImporter:
         y: 352
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_36
@@ -456,7 +456,7 @@ TextureImporter:
         y: 352
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_37
@@ -466,7 +466,7 @@ TextureImporter:
         y: 352
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_38
@@ -476,7 +476,7 @@ TextureImporter:
         y: 352
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyParado_39
@@ -486,7 +486,7 @@ TextureImporter:
         y: 352
         width: 91
         height: 168
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 

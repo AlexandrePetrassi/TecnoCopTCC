@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: baf68aaae39d11141a4265f353f1c56d
-timeCreated: 1430786821
+timeCreated: 1431147052
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -96,8 +96,8 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_1
       rect:
@@ -106,7 +106,7 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_2
@@ -116,7 +116,7 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_3
@@ -126,7 +126,7 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_4
@@ -136,7 +136,7 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_5
@@ -146,7 +146,7 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_6
@@ -156,7 +156,7 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_7
@@ -166,7 +166,7 @@ TextureImporter:
         y: 850
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_8
@@ -176,7 +176,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_9
@@ -186,7 +186,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_10
@@ -196,7 +196,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_11
@@ -206,7 +206,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_12
@@ -216,7 +216,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_13
@@ -226,7 +226,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_14
@@ -236,7 +236,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_15
@@ -246,7 +246,7 @@ TextureImporter:
         y: 676
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_16
@@ -256,7 +256,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_17
@@ -266,7 +266,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_18
@@ -276,7 +276,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_19
@@ -286,7 +286,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_20
@@ -296,7 +296,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_21
@@ -306,7 +306,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_22
@@ -316,7 +316,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_23
@@ -326,7 +326,7 @@ TextureImporter:
         y: 502
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_24
@@ -336,7 +336,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_25
@@ -346,7 +346,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_26
@@ -356,7 +356,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_27
@@ -366,7 +366,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_28
@@ -376,7 +376,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_29
@@ -386,7 +386,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_30
@@ -396,7 +396,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_31
@@ -406,7 +406,7 @@ TextureImporter:
         y: 328
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_32
@@ -416,7 +416,7 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_33
@@ -426,7 +426,7 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_34
@@ -436,7 +436,7 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_35
@@ -446,7 +446,7 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_36
@@ -456,7 +456,7 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_37
@@ -466,7 +466,7 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_38
@@ -476,7 +476,7 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemyAndando_39
@@ -486,8 +486,8 @@ TextureImporter:
         y: 154
         width: 114
         height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
