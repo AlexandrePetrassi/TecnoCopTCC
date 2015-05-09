@@ -4,9 +4,35 @@ using TecnoCop.Collisions;
 
 namespace TecnoCop{
 	public class DamageManager : ModuleManager, IUpdatable {
+		[SerializeField]
+		float maxHealth;
 
-		public float health;
+		public float MaxHealth {
+			get {
+				return maxHealth;
+			}
+			private set {
+				maxHealth = value;
+			}
+		}
+
+		private float health;
+
+		public virtual float Health {
+			get {
+				return health;
+			}
+			set {
+				health = value;
+			}
+		}
+
 		private Damage damage;
+
+		void OnEnable()
+		{
+			Health = MaxHealth;
+		}
 
 		public void update(){
 			consumeDamage(collision.feet);
@@ -16,14 +42,15 @@ namespace TecnoCop{
 		}
 
 		public void consumeDamage(CollisionDetector detector){
-			if(damage == null && detector.damage != null) damage = detector.damage;
+			if(damage == null && detector.damage != null) 
+				damage = detector.damage;
 			detector.damage = null;
 		}
 
 		private void applyDamage(){
 
 			if(damage != null && !Knockback.isKnocked(this)){
-				health -= damage.power;
+				Health -= damage.power;
 				knockback.receiveKnockback(damage.knockBackPower,0.5f);
 			}
 			damage = null;
