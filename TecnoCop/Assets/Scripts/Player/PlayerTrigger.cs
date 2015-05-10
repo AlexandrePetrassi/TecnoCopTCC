@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace TecnoCop{
 	namespace PlayerControl{
@@ -38,23 +39,23 @@ namespace TecnoCop{
 			protected float getAxisValue(){
 				switch(triggerAxis){
 				case TriggerAxis.HorizontalAxis:
-					return Input.GetAxisRaw("Horizontal");
+					return CrossPlatformInputManager.GetAxisRaw("Horizontal");
 				case TriggerAxis.Up:
-					return Input.GetAxisRaw("Vertical");
+					return CrossPlatformInputManager.GetAxisRaw("Vertical");
 				case TriggerAxis.Down:
-					return Input.GetAxisRaw("Vertical");
+					return CrossPlatformInputManager.GetAxisRaw("Vertical");
 				case TriggerAxis.Accept:
-					return Input.GetAxisRaw("Accept");
+					return CrossPlatformInputManager.GetAxisRaw("Accept");
 				case TriggerAxis.Cancel:
-					return Input.GetAxisRaw("Cancel");
+					return CrossPlatformInputManager.GetAxisRaw("Cancel");
 				case TriggerAxis.Switch:
-					return Input.GetAxisRaw("Switch");
+					return CrossPlatformInputManager.GetAxisRaw("Switch");
 				case TriggerAxis.Menu:
-					return Input.GetAxisRaw("Menu");
+					return CrossPlatformInputManager.GetAxisRaw("Menu");
 				case TriggerAxis.Jump:
-					return Input.GetAxisRaw("Jump");
+					return CrossPlatformInputManager.GetButton("Jump") ? 1 : 0;
 				case TriggerAxis.Click:
-					return Input.GetAxisRaw("Click");
+					return CrossPlatformInputManager.GetAxisRaw("Click");
 				default:
 					return 0;
 				}
@@ -66,11 +67,11 @@ namespace TecnoCop{
 			private bool isPressed(TriggerAxis triggerAxis){
 				switch(triggerAxis){
 				case TriggerAxis.HorizontalAxis:
-					return Input.GetAxisRaw("Horizontal") != 0;
+					return CrossPlatformInputManager.GetAxisRaw("Horizontal") != 0;
 				case TriggerAxis.Up:
-					return Input.GetAxisRaw("Vertical") > 0;
+					return CrossPlatformInputManager.GetAxisRaw("Vertical") > 0;
 				case TriggerAxis.Down:
-					return Input.GetAxisRaw("Vertical") < 0;
+					return CrossPlatformInputManager.GetAxisRaw("Vertical") < 0;
 				default:
 					return getAxisValue() != 0;
 				}
