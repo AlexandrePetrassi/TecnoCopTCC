@@ -1,9 +1,48 @@
 fileFormatVersion: 2
 guid: fb77b18b0a89fbf4da52726b54bab362
-timeCreated: 1430786351
+timeCreated: 1431176898
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: enemyAtirando_0
+    21300002: enemyAtirando_1
+    21300004: enemyAtirando_2
+    21300006: enemyAtirando_3
+    21300008: enemyAtirando_4
+    21300010: enemyAtirando_5
+    21300012: enemyAtirando_6
+    21300014: enemyAtirando_7
+    21300016: enemyAtirando_8
+    21300018: enemyAtirando_9
+    21300020: enemyAtirando_10
+    21300022: enemyAtirando_11
+    21300024: enemyAtirando_12
+    21300026: enemyAtirando_13
+    21300028: enemyAtirando_14
+    21300030: enemyAtirando_15
+    21300032: enemyAtirando_16
+    21300034: enemyAtirando_17
+    21300036: enemyAtirando_18
+    21300038: enemyAtirando_19
+    21300040: enemyAtirando_20
+    21300042: enemyAtirando_21
+    21300044: enemyAtirando_22
+    21300046: enemyAtirando_23
+    21300048: enemyAtirando_24
+    21300050: enemyAtirando_25
+    21300052: enemyAtirando_26
+    21300054: enemyAtirando_27
+    21300056: enemyAtirando_28
+    21300058: enemyAtirando_29
+    21300060: enemyAtirando_30
+    21300062: enemyAtirando_31
+    21300064: enemyAtirando_32
+    21300066: enemyAtirando_33
+    21300068: enemyAtirando_34
+    21300070: enemyAtirando_35
+    21300072: enemyAtirando_36
+    21300074: enemyAtirando_37
+    21300076: enemyAtirando_38
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +87,397 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: enemyAtirando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1931
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1931
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_2
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1931
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1814
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1814
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_5
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1814
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1697
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_7
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1697
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_8
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1697
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1580
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_11
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1580
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1463
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_13
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1463
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_14
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1463
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1346
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_16
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1346
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_17
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1346
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1229
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_19
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1229
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_20
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1229
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1112
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_22
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1112
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_23
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1112
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 995
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_25
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 995
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_26
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 995
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_28
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 878
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_29
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 878
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 761
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_31
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 761
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_32
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 761
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_34
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 644
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_35
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 644
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_37
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 527
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemyAtirando_38
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 527
+        width: 605
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
