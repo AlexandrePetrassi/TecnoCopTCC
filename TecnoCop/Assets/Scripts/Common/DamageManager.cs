@@ -47,6 +47,7 @@ namespace TecnoCop{
 
 		public void update(){
 			if(damage != null && !isinvulnerable()) applyDamage();
+			unflashSprite();
 		}
 
 		private void applyDamage(){
@@ -54,10 +55,20 @@ namespace TecnoCop{
 			knockback.receiveKnockback(damage.knockBackPower,0.5f);
 			invulnerabilityEndTime = Time.time + invulnerabilityTime;
 			damage = null;
+			flashSprite();
 		}
 
 		public bool isinvulnerable(){
 			return Time.time<invulnerabilityEndTime;
+		}
+
+		void flashSprite(){
+			spriteRenderer.material.SetFloat("_FlashAmount",1.0f);
+		}
+
+		void unflashSprite(){
+			float amount = spriteRenderer.material.GetFloat("_FlashAmount") - 0.05f;
+			spriteRenderer.material.SetFloat("_FlashAmount",amount > 0? amount: 0);
 		}
 	}
 }

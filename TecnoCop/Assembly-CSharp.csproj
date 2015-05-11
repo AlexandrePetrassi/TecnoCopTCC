@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\Scenario\ScenarioManager.cs" />
      <Compile Include="Assets\Scripts\Scenario\SolidBlock.cs" />
      <Compile Include="Assets\Scripts\Scenario\Tile.cs" />
+     <None Include="Assets\Resources\Materials\SpriteFlash.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

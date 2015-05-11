@@ -290,6 +290,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 20
+  health: 0
+  invulnerabilityTime: 0
   healthBar: {fileID: 0}
 --- !u!114 &11439846
 MonoBehaviour:
@@ -500,7 +502,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: 78f1f305be6d8dd4194bcc2d12c19b30, type: 2}
+  - {fileID: 2100000, guid: 3c8dfe31ecf86434f9103dda205e2c57, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
