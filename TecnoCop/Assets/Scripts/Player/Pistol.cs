@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using TecnoCop.Effects;
+using TecnoCop.Collisions;
 
 namespace TecnoCop{
 	namespace PlayerControl{
@@ -12,12 +13,14 @@ namespace TecnoCop{
 			protected override void end(){
 				//var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
 				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 				bullet.tag = "Player";
 			}
 
 			protected override void release(){
 				//var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
 				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 				bullet.tag = "Player";
 			}
 

@@ -71,6 +71,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230e7c01008a980428b842bdd44c3590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parentGameObject: {fileID: 0}
+  deleteOnCollision: 1
+  damagePower: 2
+  damageType: 0
+  damageKnockback: .5
 --- !u!114 &11484694
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -10,11 +10,11 @@ namespace TecnoCop{
 		public float  endTime   = 0;  // Momento no tempo em que o Knockback acabarah
 
 		protected override bool getTriggerInput(){
-			return isKnocked();
+			return isKnocked(this);
 		}
 
 		protected override bool startCondition(){
-			return isKnocked();
+			return isKnocked(this);
 		}
 
 		protected override void start(){

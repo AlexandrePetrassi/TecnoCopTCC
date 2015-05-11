@@ -24,7 +24,6 @@ namespace TecnoCop{
 		public Damage(float power,DamageType type, float knockBackPower):this(power,type){
 			this.knockBackPower = knockBackPower;
 		}
-		
 	}
 	public enum DamageType{
 		blunt,
@@ -36,4 +35,6 @@ namespace TecnoCop{
 		acid,
 		none
 	}
+
+
 }
