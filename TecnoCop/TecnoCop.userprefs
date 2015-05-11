@@ -1,32 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FPSDisplay.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy\EnemyMove.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemy\EnemyAnimationManager.cs" Line="15" Column="1" />
-      <File FileName="Assets\Scripts\Common\AnimationManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemy\EnemyMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerAnimationManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerDamageManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\DamageManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\ModuleManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\IUpdatable.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\Character.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\CollisionManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Knockback.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Pistol.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerTrigger.cs" Line="56" Column="65" />
-      <File FileName="Assets\Scripts\Common\Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Jump.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Dash.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Scenario\CollisionDetector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" Line="1" Column="1" />
-      <File FileName="Assets\FPSDisplay.cs" Line="28" Column="2" />
+      <File FileName="Assets\Scripts\Player\Dash.cs" Line="82" Column="18" />
+      <File FileName="Assets\Scripts\Scenario\Paralax.cs" Line="13" Column="5" />
+      <File FileName="Assets\Scripts\Player\Pistol.cs" Line="20" Column="111" />
+      <File FileName="Assets\Scripts\Enemy\EnemyMove.cs" Line="33" Column="113" />
+      <File FileName="Assets\Scripts\Common\Trigger.cs" Line="109" Column="16" />
+      <File FileName="Assets\Scripts\Enemy\EnemyAnimationManager.cs" Line="2" Column="26" />
+      <File FileName="Assets\Scripts\Common\AnimationManager.cs" Line="25" Column="3" />
     </Files>
+    <Pads>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

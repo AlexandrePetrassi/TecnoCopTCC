@@ -8,8 +8,10 @@ namespace TecnoCop{
 			[Header("Specific")]
 			[Tooltip("Velocidade de movimento do personagem")]
 			public  float speed;
-			private float gravity;         // Força da gravidade. Valor utilizado para recuperar o valor padrao da gravidade depois que a gravidade eh desativada
+			private float gravity;                               // Força da gravidade. Valor utilizado para recuperar o valor padrao da gravidade depois que a gravidade eh desativada
+			[Tooltip("Raio de audiçao do robo")]
 			public float range = 5;
+			[HideInInspector] public bool playerInRange = false; // Indica se o player estah no range de audiçao do robo
 
 			//OBS: Nunca setar o valor destes quatro campos diretamente. Para isso, usar os metodos setVelocity e getVelocity
 			private float x_velocity;      // Valor que pode sobreescrever a velocidade no eixo X
@@ -28,16 +30,23 @@ namespace TecnoCop{
 			/// Apenas move o persoangem caso o jogador esteja proximo dele
 			/// </summary>
 			protected override bool getTriggerInput(){
-				return true;
-
+				return range>Vector3.Distance(Player.player.transform.position,transform.position) && (collision.feet.isColliding || isPlayerBehind());
 			}
 
 			/// <summary>
 			/// Seta o valor da velocidade em ambos os eixos, baseado nos valores obtidos de x_velocity e y_velocity
+			/// Chamado quando o heroi esta no campo de visao)
 			/// </summary>
-			protected override void preStart(){
-				//toogleGravity(!(Dash.isDashing() || WallStick.isWallSticking()));
+			protected override void continuous(){
 				setVelocity_x(speed * Time.deltaTime * getMoveDirection(),0);
+				ribo.velocity = new Vector2(getVelocity_x(),getVelocity_y()); 
+			}
+
+			/// <summary>
+			/// Seta o valor da velocidade em ambos os eixos, mantendo x como Zero (Chamado quando perde o heroi do campo de audiçao
+			/// </summary>
+			protected override void postEnd(){
+				setVelocity_x(0,0);
 				ribo.velocity = new Vector2(getVelocity_x(),getVelocity_y()); 
 			}
 			
@@ -97,10 +106,16 @@ namespace TecnoCop{
 
 			// Direçao para onde o personagem deve andar
 			public int getMoveDirection(){
-				if(Vector3.Distance(Player.player.transform.position,transform.position)>range) return 0;
 				if(Player.player.transform.position.x > transform.position.x) return 1;
 				if(Player.player.transform.position.x < transform.position.x) return -1;
 				return 0;
+			}
+
+			private bool isPlayerBehind(){
+				if(Player.player.transform.position.x > transform.position.x)
+					return transform.localScale.x < 0? true:false;
+				else
+					return transform.localScale.x > 0? true:false;
 			}
 		}
 

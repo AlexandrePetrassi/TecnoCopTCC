@@ -18,7 +18,7 @@ namespace TecnoCop{
 		/// <summary>
 		/// Espelha a sprite do personagem toda vez que o sentido da velocidade horizontal muda
 		/// </summary>
-		void setLookingDirection(){
+		protected virtual void setLookingDirection(){
 			if((ribo.velocity.x < 0 && transform.localScale.x > 0) || (ribo.velocity.x > 0 && transform.localScale.x < 0))
 				transform.localScale =  new Vector3(transform.localScale.x *-1,transform.localScale.y,transform.localScale.z);
 		}
