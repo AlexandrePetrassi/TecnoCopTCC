@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410d975dbdcf83d4abc1ecc9339d12d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intesisty: {x: .03125, y: .015625}
+  intesisty: {x: .0299999993, y: .015625}
 --- !u!114 &11451592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410d975dbdcf83d4abc1ecc9339d12d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intesisty: {x: .015625, y: .015625}
+  intesisty: {x: .0199999996, y: 0}
 --- !u!114 &11473770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410d975dbdcf83d4abc1ecc9339d12d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intesisty: {x: .0625, y: .015625}
+  intesisty: {x: .00999999978, y: .015625}
 --- !u!114 &11486372
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -16,7 +16,7 @@ namespace TecnoCop{
 			}
 		}
 
-		private float health;
+		public float health;
 
 		public virtual float Health {
 			get {
@@ -27,33 +27,48 @@ namespace TecnoCop{
 			}
 		}
 
-		private Damage damage;
+		Damage myDamage;
+		public Damage damage{
+			get{
+				return myDamage;
+			}
+			set{
+				myDamage = value;
+			}
+		}
 
 		void OnEnable()
 		{
 			Health = MaxHealth;
 		}
 
-		public void update(){
-			consumeDamage(collision.feet);
-			consumeDamage(collision.head);
-			consumeDamage(collision.front);
-			applyDamage();
-		}
+		public float invulnerabilityTime = 0;
+		private float invulnerabilityEndTime = 0;
 
-		public void consumeDamage(CollisionDetector detector){
-			if(damage == null && detector.damage != null) 
-				damage = detector.damage;
-			detector.damage = null;
+		public void update(){
+			if(damage != null && !isinvulnerable()) applyDamage();
+			unflashSprite();
 		}
 
 		private void applyDamage(){
-
-			if(damage != null && !Knockback.isKnocked(this)){
-				Health -= damage.power;
-				knockback.receiveKnockback(damage.knockBackPower,0.5f);
-			}
+			Health -= damage.power;
+			knockback.receiveKnockback(damage.knockBackPower,0.5f);
+			invulnerabilityEndTime = Time.time + invulnerabilityTime;
 			damage = null;
+			flashSprite();
+		}
+
+		public bool isinvulnerable(){
+			return Time.time<invulnerabilityEndTime;
+		}
+
+		void flashSprite(){
+			spriteRenderer.material.SetFloat("_FlashAmount",1.0f);
+		}
+
+		void unflashSprite(){
+			float amount = spriteRenderer.material.GetFloat("_FlashAmount") - 0.05f;
+			spriteRenderer.material.SetFloat("_FlashAmount",amount > 0? amount: 0);
 		}
 	}
 }

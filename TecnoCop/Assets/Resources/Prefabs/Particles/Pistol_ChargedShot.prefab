@@ -12,6 +12,7 @@ GameObject:
   - 50: {fileID: 5077136}
   - 61: {fileID: 6186514}
   - 114: {fileID: 11414492}
+  - 114: {fileID: 11422644}
   m_Layer: 0
   m_Name: Pistol_ChargedShot
   m_TagString: Untagged
@@ -71,6 +72,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+--- !u!114 &11422644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230e7c01008a980428b842bdd44c3590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentGameObject: {fileID: 0}
+  deleteOnCollision: 1
+  damagePower: 20
+  damageType: 0
+  damageKnockback: 2
 --- !u!212 &21251368
 SpriteRenderer:
   m_ObjectHideFlags: 1

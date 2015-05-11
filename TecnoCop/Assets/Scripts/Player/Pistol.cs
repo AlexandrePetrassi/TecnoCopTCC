@@ -2,6 +2,7 @@
 using System.Collections;
 using TecnoCop.Effects;
 using UnityEngine.UI;
+using TecnoCop.Collisions;
 
 namespace TecnoCop{
 	namespace PlayerControl{
@@ -37,8 +38,9 @@ namespace TecnoCop{
 
 
 			protected override void end(){
-
-				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
+				//var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
+				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 				bullet.tag = "Player";
 				if(chargeIcon)
 					chargeIcon.fillAmount = Mathf.Lerp(0, 1, 0);
@@ -46,7 +48,9 @@ namespace TecnoCop{
 
 			protected override void release(){
 				startCooldown ();
-				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
+				//var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
+				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 				bullet.tag = "Player";
 			}
 
@@ -58,11 +62,15 @@ namespace TecnoCop{
 			}
 
 			private float angleBetweenMouse(){
-//				Vector3 mousePos = Input.mousePosition;
-//				Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
-//				Vector3 delta = mousePos -pos;
-//				return Mathf.Atan2(delta.y,delta.x) * Mathf.Rad2Deg;
-				return transform.localScale.x > 0 ? 0 : 180;
+				Vector3 mousePos = Input.mousePosition;
+				Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
+				Vector3 delta = mousePos -pos;
+				return Mathf.Atan2(delta.y,delta.x) * Mathf.Rad2Deg;
+				
+			}
+
+			private float getBulletDirection(){
+				return (transform.localScale.x>=0?0:180) + (WallStick.isWallSticking()?180:0);
 			}
 		}
 	}

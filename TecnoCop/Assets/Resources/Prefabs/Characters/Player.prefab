@@ -278,6 +278,7 @@ MonoBehaviour:
   dashTime: .5
   airDashEnabled: 1
   dashParticle: {fileID: 117576, guid: f0d39cd4082d54c4c8c3d2bd0293f095, type: 2}
+  cooldownIcon: {fileID: 0}
 --- !u!114 &11437950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -290,6 +291,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 20
+  health: 0
+  invulnerabilityTime: 0
   healthBar: {fileID: 0}
 --- !u!114 &11439846
 MonoBehaviour:
@@ -334,11 +337,13 @@ MonoBehaviour:
   triggerAxis: 8
   tapInterval: 0
   hasStarted: 0
-  cooldown: 0
+  cooldown: 1
   chargeable: 1
   charge: 1
   normalShot: {fileID: 110770, guid: 7f51f53975d530b47b1ff541534b670b, type: 2}
   chargedShot: {fileID: 137138, guid: 38d7d39a7b4de634ca4d736ef9f2473b, type: 2}
+  cooldownIcon: {fileID: 0}
+  chargeIcon: {fileID: 0}
 --- !u!114 &11472234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -500,7 +505,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: 78f1f305be6d8dd4194bcc2d12c19b30, type: 2}
+  - {fileID: 2100000, guid: 3c8dfe31ecf86434f9103dda205e2c57, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
