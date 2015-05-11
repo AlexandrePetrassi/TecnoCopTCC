@@ -87,6 +87,18 @@ NavMeshSettings:
     cellSize: .166666657
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &125564938
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11414716, guid: dd589ceff8f617549b820010c0c39f1c,
+    type: 2}
+  m_PrefabInternal: {fileID: 923183555}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!114 &193365873
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11475148, guid: dd589ceff8f617549b820010c0c39f1c,
+    type: 2}
+  m_PrefabInternal: {fileID: 923183555}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &218502264
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,9 +366,35 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1294327106}
+    - target: {fileID: 11429112, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
+      propertyPath: coolDownIcon
+      value: 
+      objectReference: {fileID: 193365873}
+    - target: {fileID: 11429112, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
+      propertyPath: cooldownIcon
+      value: 
+      objectReference: {fileID: 193365873}
+    - target: {fileID: 11466826, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
+      propertyPath: cooldownIcon
+      value: 
+      objectReference: {fileID: 584619307}
+    - target: {fileID: 11466826, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
+      propertyPath: cooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11466826, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
+      propertyPath: chargeIcon
+      value: 
+      objectReference: {fileID: 125564938}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &584619307
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11473694, guid: dd589ceff8f617549b820010c0c39f1c,
+    type: 2}
+  m_PrefabInternal: {fileID: 923183555}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &923183555
 Prefab:
   m_ObjectHideFlags: 0
@@ -364,14 +402,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 22494470, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494470, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 22467852, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -444,9 +474,13 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 156292, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 22494470, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22494470, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}

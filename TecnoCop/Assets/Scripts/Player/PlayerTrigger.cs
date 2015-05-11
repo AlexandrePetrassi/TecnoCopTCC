@@ -191,8 +191,8 @@ namespace TecnoCop{
 			/// Valor 1 significa que a habilidade estah pronta.
 			/// </summary>
 			public float getCooldown(){
-				if(Time.time > cooldownTime) return 1;
-				return  (Time.time - cooldownTime - cooldown)/ cooldownTime;
+				if(Time.time > cooldownTime) return 0;
+				return  1 - ((Time.time - (cooldownTime - cooldown))/ cooldown);
 			}
 
 			/// <summary>
@@ -222,7 +222,8 @@ namespace TecnoCop{
 			/// </summary>
 			public float getCharge(){
 				if(Time.time > chargeTime) return 1;
-				return  (Time.time - chargeTime - charge)/ chargeTime;
+				Debug.Log((Time.time - (chargeTime - charge) )/ charge);
+				return  (Time.time - (chargeTime - charge) )/ charge;
 			}
 		}
 

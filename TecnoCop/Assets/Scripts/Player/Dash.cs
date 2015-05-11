@@ -26,7 +26,7 @@ namespace TecnoCop{
 			[Tooltip("GameObject usado como particula para gerar o efeito de rastro")]
 			public GameObject dashParticle; 
 			[SerializeField]
-			Image coolDownIcon;
+			Image cooldownIcon;
 
 			/// <summary>
 			/// O jogador nao pode iniciar um dash em meio a um dash, nem quando estiver grudado em uma parede,
@@ -48,7 +48,7 @@ namespace TecnoCop{
 			protected override void startCooldown ()
 			{
 				base.startCooldown ();
-				StartCoroutine (UpdateCooldownIcon (coolDownIcon));
+				StartCoroutine (UpdateCooldownIcon (cooldownIcon));
 			}
 
 			IEnumerator UpdateCooldownIcon(Image icon)
@@ -58,7 +58,7 @@ namespace TecnoCop{
 				float totalTime = cooldown;
 				float currentTime = totalTime;
 				while (currentTime > 0) {
-					icon.fillAmount = Mathf.Lerp(0, 1, currentTime/totalTime);
+					icon.fillAmount = Mathf.Lerp(0, 1, getCooldown());
 					currentTime -= Time.deltaTime;
 					yield return new WaitForEndOfFrame();
 				}
