@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 namespace TecnoCop{
 	namespace PlayerControl{
@@ -23,7 +24,9 @@ namespace TecnoCop{
 			[Tooltip("Habilita/Desabilita o Air Dash")]
 			public bool airDashEnabled; 
 			[Tooltip("GameObject usado como particula para gerar o efeito de rastro")]
-			public GameObject dashParticle;
+			public GameObject dashParticle; 
+			[SerializeField]
+			Image coolDownIcon;
 
 			/// <summary>
 			/// O jogador nao pode iniciar um dash em meio a um dash, nem quando estiver grudado em uma parede,
@@ -40,6 +43,26 @@ namespace TecnoCop{
 				maxTime = Time.time + dashTime; // Seta o momento no tempo onde dash termina
 				startCooldown();
 				executeDash();
+			}
+
+			protected override void startCooldown ()
+			{
+				base.startCooldown ();
+				StartCoroutine (UpdateCooldownIcon (coolDownIcon));
+			}
+
+			IEnumerator UpdateCooldownIcon(Image icon)
+			{
+				if (!icon)
+					yield break;
+				float totalTime = cooldown;
+				float currentTime = totalTime;
+				while (currentTime > 0) {
+					icon.fillAmount = Mathf.Lerp(0, 1, currentTime/totalTime);
+					currentTime -= Time.deltaTime;
+					yield return new WaitForEndOfFrame();
+				}
+				icon.fillAmount = Mathf.Lerp(0, 1, 0);
 			}
 
 			/// <summary>

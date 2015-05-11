@@ -1,6 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FPSDisplay.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Dash.cs">
     <Files>
       <File FileName="Assets\Scripts\Enemy\EnemyAnimationManager.cs" Line="15" Column="1" />
       <File FileName="Assets\Scripts\Common\AnimationManager.cs" Line="1" Column="1" />
@@ -15,10 +15,10 @@
       <File FileName="Assets\Scripts\Common\CollisionManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Knockback.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Pistol.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerTrigger.cs" Line="56" Column="65" />
+      <File FileName="Assets\Scripts\Player\PlayerTrigger.cs" Line="201" Column="22" />
       <File FileName="Assets\Scripts\Common\Projectile.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Jump.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Dash.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\Dash.cs" Line="28" Column="20" />
       <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" Line="1" Column="1" />
@@ -26,6 +26,9 @@
       <File FileName="Assets\Scripts\Scenario\CollisionDetector.cs" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" Line="1" Column="1" />
       <File FileName="Assets\FPSDisplay.cs" Line="28" Column="2" />
+      <File FileName="Assets\Scripts\Scenario\Paralax.cs" Line="18" Column="1" />
+      <File FileName="Assets\Scripts\Scenario\Tile.cs" Line="11" Column="28" />
+      <File FileName="Assets\Scripts\Player\Move.cs" Line="39" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

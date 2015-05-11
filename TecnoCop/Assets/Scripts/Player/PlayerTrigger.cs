@@ -198,7 +198,7 @@ namespace TecnoCop{
 			/// <summary>
 			/// Inicia o cooldown
 			/// </summary>
-			protected void startCooldown(){
+			protected virtual void startCooldown(){
 				cooldownTime = Time.time + cooldown;
 			}
 
