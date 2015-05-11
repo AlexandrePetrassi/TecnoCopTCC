@@ -11,13 +11,13 @@ namespace TecnoCop{
 
 			protected override void end(){
 				//var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
-				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,transform.localScale.x>=0?0:180)) as GameObject;
+				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
 				bullet.tag = "Player";
 			}
 
 			protected override void release(){
 				//var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
-				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,transform.localScale.x>=0?0:180)) as GameObject;
+				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
 				bullet.tag = "Player";
 			}
 
@@ -26,6 +26,10 @@ namespace TecnoCop{
 				Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
 				Vector3 delta = mousePos -pos;
 				return Mathf.Atan2(delta.y,delta.x) * Mathf.Rad2Deg;
+			}
+
+			private float getBulletDirection(){
+				return (transform.localScale.x>=0?0:180) + (WallStick.isWallSticking()?180:0);
 			}
 		}
 	}
