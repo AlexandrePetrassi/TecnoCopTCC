@@ -58,10 +58,11 @@ namespace TecnoCop{
 			}
 
 			private float angleBetweenMouse(){
-				Vector3 mousePos = Input.mousePosition;
-				Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
-				Vector3 delta = mousePos -pos;
-				return Mathf.Atan2(delta.y,delta.x) * Mathf.Rad2Deg;
+//				Vector3 mousePos = Input.mousePosition;
+//				Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
+//				Vector3 delta = mousePos -pos;
+//				return Mathf.Atan2(delta.y,delta.x) * Mathf.Rad2Deg;
+				return transform.localScale.x > 0 ? 0 : 180;
 			}
 		}
 	}
