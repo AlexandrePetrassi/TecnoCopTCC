@@ -290,9 +290,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66588f786ed761f4c8a58257e6e01bf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldown: 0
+  deathPrefab: {fileID: 197664, guid: 27ce2282cdc614b4cb3d52208b612831, type: 2}
   maxHealth: 20
   health: 0
-  invulnerabilityTime: 0
+  invulnerabilityTime: .5
   healthBar: {fileID: 0}
 --- !u!114 &11439846
 MonoBehaviour:
@@ -334,12 +336,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ca84ea4ac321e46a92a57032ed2e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerAxis: 8
+  triggerAxis: 1
   tapInterval: 0
   hasStarted: 0
   cooldown: 1
   chargeable: 1
-  charge: 1
+  charge: 2
   normalShot: {fileID: 110770, guid: 7f51f53975d530b47b1ff541534b670b, type: 2}
   chargedShot: {fileID: 137138, guid: 38d7d39a7b4de634ca4d736ef9f2473b, type: 2}
   cooldownIcon: {fileID: 0}

@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\Scenario\Collideable.cs" />
      <Compile Include="Assets\Scripts\Scenario\CollisionDetector.cs" />
      <Compile Include="Assets\Scripts\Scenario\DamageCollider.cs" />
+     <Compile Include="Assets\Scripts\Scenario\KillingCollider.cs" />
      <Compile Include="Assets\Scripts\Scenario\Paralax.cs" />
      <Compile Include="Assets\Scripts\Scenario\ScenarioManager.cs" />
      <Compile Include="Assets\Scripts\Scenario\SolidBlock.cs" />

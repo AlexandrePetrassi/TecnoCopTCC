@@ -30,6 +30,7 @@ namespace TecnoCop{
 			/// Apenas move o persoangem caso o jogador esteja proximo dele
 			/// </summary>
 			protected override bool getTriggerInput(){
+				if(Player.player == null) return false;
 				return range>Vector3.Distance(Player.player.transform.position,transform.position) && (collision.feet.isColliding || isPlayerBehind());
 			}
 

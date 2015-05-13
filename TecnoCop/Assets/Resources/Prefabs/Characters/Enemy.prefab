@@ -201,8 +201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caf1f9f3dc89c3443a9a5082f8b812e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
-  health: 0
+  cooldown: 0
+  deathPrefab: {fileID: 197664, guid: 27ce2282cdc614b4cb3d52208b612831, type: 2}
+  maxHealth: 10
+  health: 5
   invulnerabilityTime: -1
 --- !u!114 &11491576
 MonoBehaviour:

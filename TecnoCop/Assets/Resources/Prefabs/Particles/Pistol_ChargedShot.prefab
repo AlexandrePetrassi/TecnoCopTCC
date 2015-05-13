@@ -88,6 +88,7 @@ MonoBehaviour:
   damagePower: 20
   damageType: 0
   damageKnockback: 2
+  hitParticle: {fileID: 109774, guid: 68313329331837849a251175463f5438, type: 2}
 --- !u!212 &21251368
 SpriteRenderer:
   m_ObjectHideFlags: 1
