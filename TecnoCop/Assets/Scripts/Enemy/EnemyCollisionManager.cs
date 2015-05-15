@@ -6,9 +6,12 @@ namespace TecnoCop{
 	namespace Enemy{
 		public class EnemyCollisionManager : CollisionManager {
 
+			[Header("Specific")]
 			public Rect damagerRect;
 			public float damagePower;
 			[HideInInspector]public DamageCollider damageCollider;
+
+
 
 			/// <summary>
 			///	Inicia os colliders

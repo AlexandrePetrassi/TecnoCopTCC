@@ -38,7 +38,6 @@ namespace TecnoCop{
 
 
 			protected override void end(){
-				//var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
 				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
 				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 				bullet.tag = "Player";
@@ -48,7 +47,6 @@ namespace TecnoCop{
 
 			protected override void release(){
 				startCooldown ();
-				//var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
 				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
 				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 				bullet.tag = "Player";

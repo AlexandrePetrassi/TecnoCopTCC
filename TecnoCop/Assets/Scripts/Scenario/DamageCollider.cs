@@ -24,13 +24,12 @@ namespace TecnoCop{
 			}
 
 			public override void collideOnStay(CollisionDetector collidingObject){
-				if(parentGameObject == collidingObject) return;
-				if (collidingObject.tag != gameObject.tag) {
+				//if(parentGameObject == collidingObject) return;
+				if(collidingObject.tag != gameObject.tag){
 					collidingObject.isColliding = true;
 					collidingObject.transferDamage(damage);
 					if(deleteOnCollision) onCollisionDestroy();
 				}
-
 			}
 
 			public void onCollisionDestroy(){

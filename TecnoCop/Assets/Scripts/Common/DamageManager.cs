@@ -19,7 +19,7 @@ namespace TecnoCop{
 			}
 		}
 
-		public float health;
+		float health;
 
 		public virtual float Health {
 			get {

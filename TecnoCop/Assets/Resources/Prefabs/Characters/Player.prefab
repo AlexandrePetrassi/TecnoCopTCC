@@ -293,8 +293,7 @@ MonoBehaviour:
   cooldown: 0
   deathPrefab: {fileID: 197664, guid: 27ce2282cdc614b4cb3d52208b612831, type: 2}
   maxHealth: 20
-  health: 0
-  invulnerabilityTime: .5
+  invulnerabilityTime: 1
   healthBar: {fileID: 0}
 --- !u!114 &11439846
 MonoBehaviour:
@@ -336,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ca84ea4ac321e46a92a57032ed2e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerAxis: 1
+  triggerAxis: 8
   tapInterval: 0
   hasStarted: 0
   cooldown: 1
@@ -446,14 +445,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: .180000007
     y: .899999976
-    width: .200000003
-    height: .100000001
+    width: .400000006
+    height: .300000012
   frontRect:
     serializedVersion: 2
     x: .600000024
     y: 0
     width: .100000001
-    height: .5
+    height: .699999988
 --- !u!114 &11480590
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -8,7 +8,7 @@ namespace TecnoCop{
 	/// Gerencia a colisao entre os diferentes CollisionDetectors do objeto
 	/// </summary>
 	public abstract class CollisionManager: ModuleManager, IUpdatable{
-
+		[Header("Generic")]
 		[HideInInspector]public CollisionDetector feet;   // Usado para detectar colisoes com o chao
 		[HideInInspector]public CollisionDetector head;   // Usado para detectar colisoes com o teto
 		[HideInInspector]public CollisionDetector front;  // Usado para detectar colisoes com paredes

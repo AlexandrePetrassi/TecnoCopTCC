@@ -63,9 +63,11 @@
      <Compile Include="Assets\Scripts\Effects\FadeParticle.cs" />
      <Compile Include="Assets\Scripts\Effects\TransparentParticle.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAnimationManager.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyCollisionManager.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyDamageManager.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyShot.cs" />
      <Compile Include="Assets\Scripts\Player\Dash.cs" />
      <Compile Include="Assets\Scripts\Player\Jump.cs" />
      <Compile Include="Assets\Scripts\Player\Knockback.cs" />
@@ -83,6 +85,7 @@
      <Compile Include="Assets\Scripts\Scenario\DamageCollider.cs" />
      <Compile Include="Assets\Scripts\Scenario\KillingCollider.cs" />
      <Compile Include="Assets\Scripts\Scenario\Paralax.cs" />
+     <Compile Include="Assets\Scripts\Scenario\PlayerDetector.cs" />
      <Compile Include="Assets\Scripts\Scenario\ScenarioManager.cs" />
      <Compile Include="Assets\Scripts\Scenario\SolidBlock.cs" />
      <Compile Include="Assets\Scripts\Scenario\Tile.cs" />
