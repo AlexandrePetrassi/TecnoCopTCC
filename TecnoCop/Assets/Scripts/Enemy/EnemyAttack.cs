@@ -13,6 +13,7 @@ namespace TecnoCop{
 
 			protected override bool getTriggerInput ()
 			{
+				if(getCooldown() != 1) return false;
 				return checkCollision();
 			}
 
@@ -23,6 +24,7 @@ namespace TecnoCop{
 
 			protected override void start ()
 			{
+				startCooldown();
 				GameObject shot = Instantiate(shotPrefab,transform.position+new Vector3(3.2f * (transform.localScale.x>0?1:-1),1.1f,0),Quaternion.Euler(new Vector3(0,0,transform.localScale.x>0?0:180))) as GameObject;
 				shot.transform.SetParent(transform);
 			}
