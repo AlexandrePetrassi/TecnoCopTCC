@@ -34,6 +34,7 @@ namespace TecnoCop{
 			/// </summary>
 			/// <returns><c>true</c>, if collision was checked, <c>false</c> otherwise.</returns>
 			bool checkCollision(){
+				if(Player.player == null) return false;
 				float px = Player.player.transform.position.x;
 				float tx = transform.position.x;
 				float py = Player.player.transform.position.y;

@@ -446,13 +446,13 @@ MonoBehaviour:
     x: .180000007
     y: .899999976
     width: .400000006
-    height: .300000012
+    height: .400000006
   frontRect:
     serializedVersion: 2
     x: .600000024
     y: 0
     width: .100000001
-    height: .699999988
+    height: 1.39999998
 --- !u!114 &11480590
 MonoBehaviour:
   m_ObjectHideFlags: 1

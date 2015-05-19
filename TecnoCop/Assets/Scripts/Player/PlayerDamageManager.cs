@@ -25,6 +25,7 @@ namespace TecnoCop{
 			protected override void die ()
 			{
 				Camera.main.transform.SetParent(null);
+				Instantiate(Resources.Load("Prefabs/Abstract/GameOver"));
 				base.die ();
 			}
 		}

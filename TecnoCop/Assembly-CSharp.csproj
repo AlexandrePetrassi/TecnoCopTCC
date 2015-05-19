@@ -89,6 +89,9 @@
      <Compile Include="Assets\Scripts\Scenario\ScenarioManager.cs" />
      <Compile Include="Assets\Scripts\Scenario\SolidBlock.cs" />
      <Compile Include="Assets\Scripts\Scenario\Tile.cs" />
+     <Compile Include="Assets\Scripts\SceneControl\GameOver.cs" />
+     <Compile Include="Assets\Scripts\SceneControl\GameOverController.cs" />
+     <Compile Include="Assets\Scripts\SceneControl\MainMenu.cs" />
      <None Include="Assets\Resources\Materials\SpriteFlash.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
