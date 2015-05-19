@@ -12,7 +12,7 @@ namespace TecnoCop{
 				myRenderer = GetComponent<Renderer>();
 			}
 			// Update is called once per frame
-			void Update () {
+			void LateUpdate () {
 				Vector3 cp = Camera.main.transform.position;
 				myRenderer.material.SetTextureOffset("_MainTex",new Vector2(cp.x*intesisty.x + transform.position.x *0.0625f,(transform.position.y-cp.y)*0.0625f +0.45f));
 			}

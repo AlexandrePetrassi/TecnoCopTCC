@@ -42,7 +42,9 @@ namespace TecnoCop{
 			}
 
 			public void transferDamage (Damage damage){
-				if(damager.damage == null) hardTransferDamage(damage);
+				if(damager == null) return;
+				if(damager.damage == null)
+					hardTransferDamage(damage);
 			}
 			
 			public void hardTransferDamage(Damage damage){

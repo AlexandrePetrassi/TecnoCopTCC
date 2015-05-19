@@ -8,6 +8,7 @@ namespace TecnoCop{
 		/// Gerencia o dano que o personagem do jogador recebe
 		/// </summary>
 		public class PlayerDamageManager : DamageManager {
+			[Header("Specific")]
 			[SerializeField]
 			Slider healthBar;
 
@@ -19,6 +20,13 @@ namespace TecnoCop{
 					base.Health = value;
 					healthBar.value = value / MaxHealth;
 				}
+			}
+
+			protected override void die ()
+			{
+				Camera.main.transform.SetParent(null);
+				Instantiate(Resources.Load("Prefabs/Abstract/GameOver"));
+				base.die ();
 			}
 		}
 	}

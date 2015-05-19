@@ -19,9 +19,10 @@ GameObject:
   - 114: {fileID: 11431678}
   - 114: {fileID: 11408642}
   - 114: {fileID: 11491576}
+  - 114: {fileID: 11452756}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +95,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: .180000007, y: .143768311}
   serializedVersion: 2
-  m_Size: {x: .230000004, y: 1.45246875}
+  m_Size: {x: .230000004, y: 1.25246894}
 --- !u!95 &9509882
 Animator:
   serializedVersion: 3
@@ -167,8 +168,8 @@ MonoBehaviour:
     height: 1
   frontRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 1
+    y: 1
     width: 1
     height: 1
   damagerRect:
@@ -190,6 +191,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11520ac52f2cd33468ac13bcc519bb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11452756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05eb650d566d464c8094fc082cba248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 2
+  x_range: 12
+  y_range: 2
+  shotPrefab: {fileID: 171778, guid: 5a2ea9c2e2799bb4289b1a2b1a123671, type: 2}
 --- !u!114 &11491096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,8 +217,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caf1f9f3dc89c3443a9a5082f8b812e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
-  health: 0
+  cooldown: 0
+  deathPrefab: {fileID: 197664, guid: 27ce2282cdc614b4cb3d52208b612831, type: 2}
+  maxHealth: 10
   invulnerabilityTime: -1
 --- !u!114 &11491576
 MonoBehaviour:

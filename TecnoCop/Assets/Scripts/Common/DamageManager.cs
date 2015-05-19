@@ -3,7 +3,10 @@ using System.Collections;
 using TecnoCop.Collisions;
 
 namespace TecnoCop{
-	public class DamageManager : ModuleManager, IUpdatable {
+	public class DamageManager : Trigger{
+		[Tooltip("Prefab de animaçao de destruiçao deste objeto")]
+		public GameObject deathPrefab;
+
 		[SerializeField]
 		float maxHealth;
 
@@ -16,7 +19,7 @@ namespace TecnoCop{
 			}
 		}
 
-		public float health;
+		float health;
 
 		public virtual float Health {
 			get {
@@ -45,9 +48,19 @@ namespace TecnoCop{
 		public float invulnerabilityTime = 0;
 		private float invulnerabilityEndTime = 0;
 
-		public void update(){
-			if(damage != null && !isinvulnerable()) applyDamage();
+
+		protected override bool getTriggerInput ()
+		{
+			return damage != null && !isinvulnerable();
+		}
+
+		protected override void preStart ()
+		{
 			unflashSprite();
+		}
+
+		protected override void start(){
+			applyDamage();
 		}
 
 		private void applyDamage(){
@@ -56,6 +69,7 @@ namespace TecnoCop{
 			invulnerabilityEndTime = Time.time + invulnerabilityTime;
 			damage = null;
 			flashSprite();
+			if(health <= 0) die ();
 		}
 
 		public bool isinvulnerable(){
@@ -69,6 +83,12 @@ namespace TecnoCop{
 		void unflashSprite(){
 			float amount = spriteRenderer.material.GetFloat("_FlashAmount") - 0.05f;
 			spriteRenderer.material.SetFloat("_FlashAmount",amount > 0? amount: 0);
+		}
+
+		protected virtual void die(){
+			if(deathPrefab != null)
+				Instantiate(deathPrefab,transform.position,Quaternion.identity);
+			Destroy(gameObject);
 		}
 	}
 }

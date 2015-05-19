@@ -6,9 +6,12 @@ namespace TecnoCop{
 	namespace Enemy{
 		public class EnemyCollisionManager : CollisionManager {
 
+			[Header("Specific")]
 			public Rect damagerRect;
 			public float damagePower;
 			[HideInInspector]public DamageCollider damageCollider;
+
+
 
 			/// <summary>
 			///	Inicia os colliders
@@ -17,7 +20,7 @@ namespace TecnoCop{
 				feet           = makeCollider("Feet" ,feetRect);
 				head           = makeCollider("Head" ,headRect);
 				front          = makeCollider("Front",frontRect);
-				damageCollider = makeCollider("Damager",damagerRect,damagePower,DamageType.eletric);
+				damageCollider = makeCollider("Damager",damagerRect,damagePower,DamageType.heat);
 			}
 
 			/// <summary>

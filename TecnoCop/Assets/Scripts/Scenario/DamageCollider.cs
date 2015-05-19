@@ -18,18 +18,25 @@ namespace TecnoCop{
 
 			// Objeto Dano, que reune os valores setados acima.
 			public Damage damage;
-
+			public GameObject hitParticle;
 			void Start(){
-				damage = new Damage(damagePower,damageType, damageKnockback);
+				if(damage == null)
+					damage = new Damage(damagePower,damageType, damageKnockback);
 			}
 
-			public override void collideOnEnter(CollisionDetector collidingObject){
-				if(parentGameObject == collidingObject) return;
-				if (collidingObject.tag != gameObject.tag) {
+			public override void collideOnStay(CollisionDetector collidingObject){
+				//if(parentGameObject == collidingObject) return;
+				if(collidingObject.tag != gameObject.tag){
 					collidingObject.isColliding = true;
 					collidingObject.transferDamage(damage);
-					if(deleteOnCollision) Destroy(gameObject);
+					if(deleteOnCollision) onCollisionDestroy();
 				}
+			}
+
+			public void onCollisionDestroy(){
+				if(hitParticle != null)
+					Instantiate(hitParticle,transform.position,transform.rotation);
+				Destroy(gameObject);
 			}
 		}
 	}

@@ -76,6 +76,7 @@ MonoBehaviour:
   damagePower: 2
   damageType: 0
   damageKnockback: .5
+  hitParticle: {fileID: 148592, guid: 3ebe050545d4d9a498b6d494d1732ad5, type: 2}
 --- !u!114 &11484694
 MonoBehaviour:
   m_ObjectHideFlags: 1

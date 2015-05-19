@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\FPSDisplay.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\Common\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\Common\Character.cs" />
      <Compile Include="Assets\Scripts\Common\CollisionManager.cs" />
@@ -63,9 +64,11 @@
      <Compile Include="Assets\Scripts\Effects\FadeParticle.cs" />
      <Compile Include="Assets\Scripts\Effects\TransparentParticle.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAnimationManager.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyCollisionManager.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyDamageManager.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyShot.cs" />
      <Compile Include="Assets\Scripts\Player\Dash.cs" />
      <Compile Include="Assets\Scripts\Player\Jump.cs" />
      <Compile Include="Assets\Scripts\Player\Knockback.cs" />
@@ -81,16 +84,17 @@
      <Compile Include="Assets\Scripts\Scenario\Collideable.cs" />
      <Compile Include="Assets\Scripts\Scenario\CollisionDetector.cs" />
      <Compile Include="Assets\Scripts\Scenario\DamageCollider.cs" />
+     <Compile Include="Assets\Scripts\Scenario\KillingCollider.cs" />
      <Compile Include="Assets\Scripts\Scenario\Paralax.cs" />
+     <Compile Include="Assets\Scripts\Scenario\PlayerDetector.cs" />
      <Compile Include="Assets\Scripts\Scenario\ScenarioManager.cs" />
      <Compile Include="Assets\Scripts\Scenario\SolidBlock.cs" />
      <Compile Include="Assets\Scripts\Scenario\Tile.cs" />
-     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <Compile Include="Assets\Scripts\SceneControl\GameOver.cs" />
+     <Compile Include="Assets\Scripts\SceneControl\GameOverController.cs" />
+     <Compile Include="Assets\Scripts\SceneControl\MainMenu.cs" />
      <None Include="Assets\Resources\Materials\SpriteFlash.shader" />
-     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
-     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
