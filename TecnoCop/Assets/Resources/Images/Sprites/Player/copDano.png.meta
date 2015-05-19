@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c12dbf9f0e8440c4f81ecfd18a608dce
-timeCreated: 1432077215
+guid: b5de398330f1a9a4a890fb623eaed551
+timeCreated: 1432077337
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: copGrudado_0
+    21300000: copDano_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -28,7 +28,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 256
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -50,15 +50,15 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: copGrudado_0
+    - name: copDano_0
       rect:
         serializedVersion: 2
-        x: 84
-        y: 76
-        width: 172
-        height: 180
+        x: 0
+        y: 61
+        width: 129
+        height: 194
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
