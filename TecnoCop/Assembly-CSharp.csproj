@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\FPSDisplay.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\Common\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\Common\Character.cs" />
      <Compile Include="Assets\Scripts\Common\CollisionManager.cs" />
