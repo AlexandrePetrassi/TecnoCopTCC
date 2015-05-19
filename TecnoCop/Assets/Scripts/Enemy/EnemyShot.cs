@@ -5,11 +5,12 @@ using TecnoCop.Collisions;
 namespace TecnoCop{
 	namespace Enemy{
 		public class EnemyShot : Projectile {
+			public float DamagePower = 2;
 			protected override void makeColliders ()
 			{
 				anim.SetBool("Started",true);
 				DamageCollider dc = gameObject.AddComponent<DamageCollider>();
-				dc.damage = new Damage(1,DamageType.blunt);
+				dc.damage = new Damage(DamagePower,DamageType.blunt);
 				dc.deleteOnCollision = true;
 				gameObject.tag = "Enemy";
 				transform.SetParent(null);

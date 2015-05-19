@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour {
 	public Rect cBounds; // Limites da camera
 
 	// Update is called once per frame
-	void LateUpdate () {
+	void Update () {
 		if(Player.player == null) return;
 		Vector3 t = Player.player.transform.position;
 		float x = Mathf.Clamp(t.x,cBounds.xMin,scenarioManager.map.width  - cBounds.width);

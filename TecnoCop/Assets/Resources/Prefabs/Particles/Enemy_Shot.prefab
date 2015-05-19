@@ -76,6 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   started: 0
+  DamagePower: 3
 --- !u!212 &21202324
 SpriteRenderer:
   m_ObjectHideFlags: 1

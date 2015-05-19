@@ -27,7 +27,7 @@ namespace TecnoCop{
 
 		public DamageCollider makeCollider(string name, Rect rect, float power, DamageType type){
 			DamageCollider newCollider = buildGameObject(name,rect).AddComponent<DamageCollider>();
-			newCollider.damage = new Damage(power,type,3);
+			newCollider.damage = new Damage(power,type,1);
 			return newCollider;
 		}
 

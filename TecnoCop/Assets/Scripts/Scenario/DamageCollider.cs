@@ -20,7 +20,8 @@ namespace TecnoCop{
 			public Damage damage;
 			public GameObject hitParticle;
 			void Start(){
-				damage = new Damage(damagePower,damageType, damageKnockback);
+				if(damage == null)
+					damage = new Damage(damagePower,damageType, damageKnockback);
 			}
 
 			public override void collideOnStay(CollisionDetector collidingObject){

@@ -129,7 +129,7 @@ MonoBehaviour:
     y: -.300000012
     width: .600000024
     height: .5
-  damagePower: 10
+  damagePower: 3
   damageCollider: {fileID: 0}
 --- !u!114 &11465992
 MonoBehaviour:
@@ -144,8 +144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldown: 0
   deathPrefab: {fileID: 197664, guid: 27ce2282cdc614b4cb3d52208b612831, type: 2}
-  maxHealth: 10
-  invulnerabilityTime: -1
+  maxHealth: 9999
+  invulnerabilityTime: 9999
 --- !u!114 &11483068
 MonoBehaviour:
   m_ObjectHideFlags: 1

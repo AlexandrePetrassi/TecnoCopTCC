@@ -20,7 +20,7 @@ namespace TecnoCop{
 				feet           = makeCollider("Feet" ,feetRect);
 				head           = makeCollider("Head" ,headRect);
 				front          = makeCollider("Front",frontRect);
-				damageCollider = makeCollider("Damager",damagerRect,damagePower,DamageType.eletric);
+				damageCollider = makeCollider("Damager",damagerRect,damagePower,DamageType.heat);
 			}
 
 			/// <summary>
