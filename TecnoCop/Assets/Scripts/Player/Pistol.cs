@@ -48,6 +48,8 @@ namespace TecnoCop{
 
 			protected override void release(){
 				startCooldown ();
+				if(chargeIcon)
+					chargeIcon.fillAmount = Mathf.Lerp(0, 1, 0);
 				//var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,angleBetweenMouse())) as GameObject;
 				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
 				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;

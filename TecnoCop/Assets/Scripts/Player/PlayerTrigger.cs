@@ -55,7 +55,7 @@ namespace TecnoCop{
 				case TriggerAxis.Jump:
 					return CrossPlatformInputManager.GetButton("Jump") ? 1 : 0;
 				case TriggerAxis.Click:
-					return CrossPlatformInputManager.GetAxisRaw("Click");
+					return CrossPlatformInputManager.GetButton("Click") ? 1 : 0;
 				default:
 					return 0;
 				}
