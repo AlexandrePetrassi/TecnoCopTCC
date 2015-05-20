@@ -38,18 +38,25 @@ namespace TecnoCop{
 
 
 			protected override void end(){
-				var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
-				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
-				bullet.tag = "Player";
-				if(chargeIcon)
-					chargeIcon.fillAmount = Mathf.Lerp(0, 1, 0);
+				if (!WallStick.isWallSticking ()) {
+					var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+					bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
+					bullet.tag = "Player";
+					if(chargeIcon)
+						chargeIcon.fillAmount = Mathf.Lerp(0, 1, 0);
+					animator.SetTrigger ("Shoot");
+				}
 			}
 
 			protected override void release(){
-				startCooldown ();
-				var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
-				bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
-				bullet.tag = "Player";
+				if (!WallStick.isWallSticking ()) {
+					startCooldown ();
+					var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+					bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
+					bullet.tag = "Player";
+					animator.SetTrigger ("Shoot");
+
+				}
 			}
 
 			protected override void continuous ()
@@ -64,7 +71,6 @@ namespace TecnoCop{
 				Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
 				Vector3 delta = mousePos -pos;
 				return Mathf.Atan2(delta.y,delta.x) * Mathf.Rad2Deg;
-				
 			}
 
 			private float getBulletDirection(){

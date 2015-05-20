@@ -135,9 +135,15 @@ namespace TecnoCop{
 				case TriggerEvent.Continue:
 					continuous(); break;
 				case TriggerEvent.End:
-					hasStarted = false; end(); break;
+					hasStarted = false; 
+					if(!Knockback.isKnocked())
+						end(); 
+					break;
 				case TriggerEvent.ReleaseCharge:
-					hasStarted = false; release(); break;
+					hasStarted = false; 
+					if(!Knockback.isKnocked())
+						release(); 
+					break;
 				case TriggerEvent.PostEnd:
 					postEnd(); break;
 				default:
