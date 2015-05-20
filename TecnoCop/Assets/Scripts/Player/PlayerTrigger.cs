@@ -222,7 +222,6 @@ namespace TecnoCop{
 			/// </summary>
 			public float getCharge(){
 				if(Time.time > chargeTime) return 1;
-				Debug.Log((Time.time - (chargeTime - charge) )/ charge);
 				return  (Time.time - (chargeTime - charge) )/ charge;
 			}
 		}
