@@ -12,15 +12,23 @@ namespace TecnoCop{
 			[SerializeField]
 			Slider healthBar;
 
+			public static float playerHealth;
 			public override float Health {
 				get {
-					return base.Health;
+					//return base.Health;
+					return playerHealth;
 				}
 				set {
-					base.Health = value;
+					//base.Health = value;
+					playerHealth = value;
 					if(healthBar == null) healthBar = GameObject.FindGameObjectWithTag("Lifebar").GetComponent<Slider>();
 					healthBar.value = value / MaxHealth;
 				}
+			}
+
+			void OnLevelWasLoaded(){
+				healthBar = null;
+				Health = playerHealth;
 			}
 
 			protected override void die ()

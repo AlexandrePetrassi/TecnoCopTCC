@@ -63,13 +63,13 @@ namespace TecnoCop{
 			applyDamage();
 		}
 
-		private void applyDamage(){
+		protected virtual void applyDamage(){
 			Health -= damage.power;
 			knockback.receiveKnockback(damage.knockBackPower,0.5f);
 			invulnerabilityEndTime = Time.time + invulnerabilityTime;
 			damage = null;
 			flashSprite();
-			if(health <= 0) die ();
+			if(Health <= 0) die ();
 		}
 
 		public bool isinvulnerable(){

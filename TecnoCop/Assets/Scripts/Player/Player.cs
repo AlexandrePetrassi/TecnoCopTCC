@@ -21,6 +21,7 @@ namespace TecnoCop{
 				myPlayer = this;
 				GetComponents<PlayerTrigger>(myUpdateables);
 				myUpdateables.Reverse(); // Isso eh temporario. Implementar algoritmo para ordenar a lista de forma correta
+				DontDestroyOnLoad(gameObject);
 			}
 			
 			/// <summary>

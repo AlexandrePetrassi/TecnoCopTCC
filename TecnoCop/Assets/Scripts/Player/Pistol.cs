@@ -34,6 +34,11 @@ namespace TecnoCop{
 				}
 			}
 
+			void OnLevelWasLoaded(){
+				cdIcon = null;
+				chIcon = null;
+			}
+
 			protected override void startCooldown ()
 			{
 				base.startCooldown ();

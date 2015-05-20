@@ -13,6 +13,7 @@ public class GameOverController : MonoBehaviour {
 	void Start () {
 		TecnoCop.PlayerControl.Player.bornPosition = TecnoCop.Direction.left;
 		bornTime = Time.time;
+		if(TecnoCop.PlayerControl.Player.player != null) Destroy(TecnoCop.PlayerControl.Player.player.gameObject);
 	}
 	
 	// Update is called once per frame

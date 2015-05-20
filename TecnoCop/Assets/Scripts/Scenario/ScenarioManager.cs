@@ -52,9 +52,23 @@ namespace TecnoCop{
 					for(int x = 0; x < charaMap.width; ++x ){ // lendo textura
 						GameObject charaPrefab = getChara(charaMap.GetPixel(x,y));
 						if(charaPrefab == null) continue;
-						Instantiate(charaPrefab,new Vector3(x,y,0.5f),Quaternion.identity);
+						if(charaPrefab.tag == "Player" && PlayerControl.Player.player != null){
+							placePlayer(x,y);
+						}else
+							Instantiate(charaPrefab,new Vector3(x,y,0.5f),Quaternion.identity);
 					}
 				}
+			}
+
+			/// <summary>
+			/// Realoca a posiçao do personagem
+			/// </summary>
+			void placePlayer(int x, int y){
+				//TecnoCop.PlayerControl.Player player = TecnoCop.PlayerControl.Player.player;
+				//Direction dir = PlayerControl.Player.bornPosition;
+				//float player_x = (dir == Direction.right || dir == Direction.left)?player.transform.position.y:y;
+				//float player_y = (dir == Direction.up    || dir == Direction.down)?player.transform.position.x:x;
+				TecnoCop.PlayerControl.Player.player.transform.position = new Vector3(x,y,0.5f);
 			}
 
 			/// <summary>

@@ -60,6 +60,10 @@ namespace TecnoCop{
 				StartCoroutine (UpdateCooldownIcon (cooldownIcon));
 			}
 
+			void OnLevelWasLoaded(){
+				cdIcon = null;
+			}
+
 			IEnumerator UpdateCooldownIcon(Image icon)
 			{
 				if (!icon)
