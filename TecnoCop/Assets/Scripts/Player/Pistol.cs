@@ -12,9 +12,27 @@ namespace TecnoCop{
 			public GameObject chargedShot; // Tiro carregado
 
 			[SerializeField]
-			Image cooldownIcon;
+			Image cdIcon;
+			Image cooldownIcon{
+				get{
+					if(cdIcon == null) cdIcon = GameObject.FindGameObjectWithTag("ShootIcon").GetComponent<Image>();
+					return cdIcon;
+				}
+				set{
+					cdIcon = value;
+				}
+			}
 			[SerializeField]
-			Image chargeIcon;
+			Image chIcon;
+			Image chargeIcon{
+				get{
+					if(chIcon == null) chIcon = GameObject.FindGameObjectWithTag("ChargeIcon").GetComponent<Image>();
+					return chIcon;
+				}
+				set{
+					chIcon = value;
+				}
+			}
 
 			protected override void startCooldown ()
 			{
@@ -39,7 +57,7 @@ namespace TecnoCop{
 
 			protected override void end(){
 				if (!WallStick.isWallSticking ()) {
-					var bullet = Instantiate(normalShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+					var bullet = Instantiate(normalShot,transform.position + new Vector3(0,-0.1f,0),Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
 					bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 					bullet.tag = "Player";
 					if(chargeIcon)
@@ -51,7 +69,7 @@ namespace TecnoCop{
 			protected override void release(){
 				if (!WallStick.isWallSticking ()) {
 					startCooldown ();
-					var bullet = Instantiate(chargedShot,transform.position,Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
+					var bullet = Instantiate(chargedShot,transform.position+ new Vector3(0,-0.1f,0),Quaternion.Euler(0,0,getBulletDirection())) as GameObject;
 					bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 					bullet.tag = "Player";
 					animator.SetTrigger ("Shoot");

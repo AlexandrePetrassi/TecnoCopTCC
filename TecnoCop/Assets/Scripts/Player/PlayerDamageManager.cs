@@ -18,6 +18,7 @@ namespace TecnoCop{
 				}
 				set {
 					base.Health = value;
+					if(healthBar == null) healthBar = GameObject.FindGameObjectWithTag("Lifebar").GetComponent<Slider>();
 					healthBar.value = value / MaxHealth;
 				}
 			}

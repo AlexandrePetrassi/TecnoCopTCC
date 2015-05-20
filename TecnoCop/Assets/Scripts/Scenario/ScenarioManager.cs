@@ -16,6 +16,11 @@ namespace TecnoCop{
 			private Dictionary<Color,GameObject> colorTile = new Dictionary<Color,GameObject>(); // Dicionario que relaciona Cor->Tile
 			private List<Precollider>			 precolliders   = new List<Precollider>();       // Lista de colliders em formaçao
 
+			public Texture2D                     charaMap;                                        // Textura que eh interpretada como mapa de personagens
+			public List<Color>                   charaColors;                                     // Array de cores que sao traduzidas para tiles
+			public List<GameObject>              characters;                                      // Tile correspondente a cor passada pelo tilemap
+			private Dictionary<Color,GameObject> colorChara = new Dictionary<Color,GameObject>(); // Dicionario que relaciona Cor->Tile
+
 			/// <summary>
 			/// Inicializa o cenario
 			/// </summary>
@@ -24,6 +29,7 @@ namespace TecnoCop{
 				buildScenarioAndColliderMap();
 				joinPrecollidersVertically();
 				buildColliders();
+				placeCharacters();
 			}
 			
 			/// <summary>
@@ -33,6 +39,33 @@ namespace TecnoCop{
 				for(int i = 0; i < colors.Count; ++i){
 					colorTile.Add(colors[i],tiles[i]);
 				}
+				for(int i = 0; i < charaColors.Count; ++i){
+					colorChara.Add(charaColors[i],characters[i]);
+				}
+			}
+
+			/// <summary>
+			/// Cria instancias e posiciona os GameObjects de personagens
+			/// </summary>
+			void placeCharacters(){
+				for(int y = 0; y < charaMap.height; ++y){
+					for(int x = 0; x < charaMap.width; ++x ){ // lendo textura
+						GameObject charaPrefab = getChara(charaMap.GetPixel(x,y));
+						if(charaPrefab == null) continue;
+						Instantiate(charaPrefab,new Vector3(x,y,0.5f),Quaternion.identity);
+					}
+				}
+			}
+
+			/// <summary>
+			/// Retorna o personagem correspondente a uma cor
+			/// </summary>
+			/// <returns>tile.</returns>
+			/// <param name="color">Color.</param>
+			GameObject getChara(Color color){ 
+				foreach(var pair in colorChara)
+					if(pair.Key == color) return pair.Value;
+				return null;
 			}
 			
 			/// <summary>

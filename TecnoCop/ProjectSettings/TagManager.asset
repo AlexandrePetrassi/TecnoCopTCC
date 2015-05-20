@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Bullet
+  - Lifebar
+  - ShootIcon
+  - ChargeIcon
+  - DashIcon
   layers:
   - Default
   - TransparentFX

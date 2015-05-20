@@ -29,7 +29,7 @@ GameObject:
   - 114: {fileID: 11414716}
   m_Layer: 5
   m_Name: Charge Cooldown
-  m_TagString: Untagged
+  m_TagString: ChargeIcon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ GameObject:
   - 114: {fileID: 11473694}
   m_Layer: 5
   m_Name: Shoot Cooldown
-  m_TagString: Untagged
+  m_TagString: ShootIcon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,7 +149,7 @@ GameObject:
   - 114: {fileID: 11475148}
   m_Layer: 5
   m_Name: Dash Cooldown
-  m_TagString: Untagged
+  m_TagString: DashIcon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,7 +165,7 @@ GameObject:
   - 114: {fileID: 11431504}
   m_Layer: 5
   m_Name: LifeBar
-  m_TagString: Untagged
+  m_TagString: Lifebar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

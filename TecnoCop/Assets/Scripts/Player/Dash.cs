@@ -26,7 +26,16 @@ namespace TecnoCop{
 			[Tooltip("GameObject usado como particula para gerar o efeito de rastro")]
 			public GameObject dashParticle; 
 			[SerializeField]
-			Image cooldownIcon;
+			Image cdIcon;
+			Image cooldownIcon{
+				get{
+					if(cdIcon == null) cdIcon = GameObject.FindGameObjectWithTag("DashIcon").GetComponent<Image>();
+					return cdIcon;
+				}
+				set{
+					cdIcon = value;
+				}
+			}
 
 			/// <summary>
 			/// O jogador nao pode iniciar um dash em meio a um dash, nem quando estiver grudado em uma parede,

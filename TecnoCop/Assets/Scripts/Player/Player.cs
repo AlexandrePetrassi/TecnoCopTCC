@@ -47,8 +47,6 @@ namespace TecnoCop{
 				set{
 					if(myPlayer!=null){
 						Destroy(myPlayer.gameObject);
-						Camera.main.transform.SetParent(value.transform);
-						Camera.main.transform.position = new Vector3(0,4,-10.5f);
 					}
 					myPlayer = value;
 				}
