@@ -63,6 +63,7 @@ namespace TecnoCop{
 					if(chargeIcon)
 						chargeIcon.fillAmount = Mathf.Lerp(0, 1, 0);
 					animator.SetTrigger ("Shoot");
+					if(Dash.isDashing()) Player.dash.cancelDash();
 				}
 			}
 

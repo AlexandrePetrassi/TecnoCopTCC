@@ -106,13 +106,17 @@ namespace TecnoCop{
 			private void executeDash(){
 				move.setVelocity_x(((Move)move).speed * speedMultiplier * Time.deltaTime * (transform.localScale.x>0?1:-1),1);
 				move.setVelocity_y(0,1);
-				Instantiate(dashParticle);
+				if(lastParticleBornTime+0.075f < Time.time){
+					Instantiate(dashParticle);
+					lastParticleBornTime = Time.time;
+				} 
 			}
+			float lastParticleBornTime;
 
 			/// <summary>
 			/// Cancela o dash
 			/// </summary>
-			private void cancelDash(){
+			public void cancelDash(){
 				maxTime = Time.time;
 			}
 		}

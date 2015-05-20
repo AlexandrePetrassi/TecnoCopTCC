@@ -8,7 +8,7 @@ namespace TecnoCop{
 	[RequireComponent(typeof(Animator))]
 	[RequireComponent(typeof(SpriteRenderer))]
 	[RequireComponent(typeof(CollisionManager))]
-	[RequireComponent(typeof(DamageManager))]
+	//[RequireComponent(typeof(DamageManager))]
 
 	public abstract class ModuleManager : MonoBehaviour {
 		

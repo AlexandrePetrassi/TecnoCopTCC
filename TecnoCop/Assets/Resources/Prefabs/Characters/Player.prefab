@@ -143,7 +143,7 @@ MonoBehaviour:
   dashTime: .5
   airDashEnabled: 1
   dashParticle: {fileID: 117576, guid: f0d39cd4082d54c4c8c3d2bd0293f095, type: 2}
-  cooldownIcon: {fileID: 0}
+  cdIcon: {fileID: 0}
 --- !u!114 &11429846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,8 +288,8 @@ MonoBehaviour:
   charge: 2
   normalShot: {fileID: 110770, guid: 7f51f53975d530b47b1ff541534b670b, type: 2}
   chargedShot: {fileID: 137138, guid: 38d7d39a7b4de634ca4d736ef9f2473b, type: 2}
-  cooldownIcon: {fileID: 0}
-  chargeIcon: {fileID: 0}
+  cdIcon: {fileID: 0}
+  chIcon: {fileID: 0}
 --- !u!114 &11497974
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -324,7 +324,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2f67f29b2ee05904db04d757ee2b57c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
