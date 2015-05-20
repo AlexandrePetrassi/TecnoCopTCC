@@ -125,9 +125,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cBounds:
     serializedVersion: 2
-    x: 13.1099997
-    y: 7.13999987
-    width: 14.2299995
+    x: 9.76000023
+    y: 7.17000008
+    width: 10.75
     height: 8.23999977
 --- !u!114 &11438046
 MonoBehaviour:
