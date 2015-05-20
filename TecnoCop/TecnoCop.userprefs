@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneControl\MainMenu.cs">
     <Files>
-      <File FileName="Assets\Scripts\SceneControl\MainMenu.cs" Line="28" Column="4" />
+      <File FileName="Assets\Scripts\SceneControl\MainMenu.cs" Line="31" Column="36" />
       <File FileName="Assets\Scripts\Enemy\EnemyCollisionManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Scenario\Paralax.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Common\CollisionManager.cs" Line="1" Column="1" />
@@ -13,11 +13,14 @@
       <File FileName="Assets\Scripts\Common\AnimationManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerAnimationManager.cs" Line="19" Column="63" />
       <File FileName="Assets\Scripts\Player\PlayerTrigger.cs" Line="144" Column="32" />
-      <File FileName="Assets\Scripts\Player\Pistol.cs" Line="52" Column="10" />
+      <File FileName="Assets\Scripts\Player\Pistol.cs" Line="1" Column="1" />
+      <File FileName="Assets\Translation.cs" Line="25" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\JOAO\Desktop\Projetos\TecnoCopTCC\TecnoCop\Assets\Translation.cs" line="47" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

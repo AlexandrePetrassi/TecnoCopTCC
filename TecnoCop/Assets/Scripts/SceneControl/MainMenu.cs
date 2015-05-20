@@ -10,8 +10,6 @@ public class MainMenu : MonoBehaviour {
 	GameObject optionsScreen;
 	[SerializeField]
 	GameObject aboutScreen;
-	[SerializeField]
-	GameObject helpScreen;
 
 	[SerializeField]
 	Toggle[] languagesToggle;
@@ -21,7 +19,6 @@ public class MainMenu : MonoBehaviour {
 		creditsScreen.SetActive (false);
 		optionsScreen.SetActive (false);
 		aboutScreen.SetActive (false);
-		helpScreen.SetActive (false);
 
 		for (int i = 0; i < languagesToggle.Length; i++) {
 			if(i == Translation.CurrentLanguage)
@@ -78,9 +75,5 @@ public class MainMenu : MonoBehaviour {
 	{
 		optionsScreen.SetActive (true);
 	}
-
-	public void Help_Click()
-	{
-		helpScreen.SetActive (true);
-	}
+	
 }
