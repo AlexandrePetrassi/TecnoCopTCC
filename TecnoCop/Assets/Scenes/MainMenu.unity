@@ -1919,6 +1919,7 @@ GameObject:
   - 222: {fileID: 762134869}
   - 114: {fileID: 762134868}
   - 114: {fileID: 762134870}
+  - 114: {fileID: 762134871}
   m_Layer: 5
   m_Name: Title 1
   m_TagString: Untagged
@@ -1998,6 +1999,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &762134871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 762134866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8fd30e913a0fb4b9a106fd8635a110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translations:
+  - "\nO jogo se passa em Retro City, muitos anos no futuro. Este \xE9 um dos \xFAltimos
+    locais a resistir \xE0 chegada de drones com intelig\xEAncia artificial suficiente
+    para dominar os humanos. \nO jogador incorpora Jack Wright, um policial que foi
+    afastado do seu cargo ap\xF3s ser suspeito injustamente de ter liga\xE7\xE3o com
+    criminosos. \nJack possui um corpo cibern\xE9tico capaz de resistir danos pesados,
+    como tiros de canh\xE3o e armas laser. \nSuas habilidades s\xE3o: super for\xE7a,
+    super velocidade, per\xEDcia com armas e alta adaptabilidade. \n\nEle vivia com
+    sua esposa Barbara e sua filha Mag, seus maiores tesouros, por\xE9m quando a cidade
+    de RetroCity \xE9 invadida por rob\xF4s, Jack se torna a \xFAnica esperan\xE7a
+    de salva\xE7\xE3o da cidade, for\xE7ando-o a partir mais uma vez para a batalha.\n"
+  - "\nThe game is set in Retro City, many years in the future. This is one of the
+    last places to resist the arrival of drones with enough artificial intelligence
+    to dominate the human race. \nThe player incorporates Jack Wright, a police officer
+    who was removed from office after being unjustly suspected of having links with
+    criminals. \nJack has a cybernetic body able to withstand heavy damage, like cannon
+    fire and laser weapons. \nHis skills are: super strength, super speed, skill with
+    weapons and high adaptability. \n\nHe lived with his wife Barbara and their daughter
+    Mag, his greatest treasures, but when the city of retrocity is invaded by robots,
+    Jack becomes the only hope of salvation of the city, forcing him to enter once
+    again into the battle."
 --- !u!1 &767519193
 GameObject:
   m_ObjectHideFlags: 0
@@ -6542,7 +6575,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1755511167}
   m_Direction: 2
   m_Value: 1
-  m_Size: .344468385
+  m_Size: .369073272
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
