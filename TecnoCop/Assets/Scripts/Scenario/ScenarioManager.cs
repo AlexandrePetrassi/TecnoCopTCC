@@ -63,8 +63,19 @@ namespace TecnoCop{
 			/// <returns>tile.</returns>
 			/// <param name="color">Color.</param>
 			GameObject getChara(Color color){ 
-				foreach(var pair in colorChara)
-					if(pair.Key == color) return pair.Value;
+				for(int i = 0; i < 4; ++i){
+					if(color == charaColors[i]){
+						if((int)TecnoCop.PlayerControl.Player.bornPosition == i)
+							return characters[i];
+						else
+							return null;
+					}
+				}
+				for(int i = 4; i < charaColors.Count; ++i){
+					if(color == charaColors[i]){
+						return characters[i];
+					}
+				}
 				return null;
 			}
 			

@@ -6,7 +6,13 @@ using TecnoCop.Collisions;
 public class CameraController : MonoBehaviour {
 
 	ScenarioManager scenarioManager;
+	[Header("Limite da camera")]
 	public Rect cBounds; // Limites da camera
+	[Header("Indice das cenas adjacentes")]
+	public int right = 1;
+	public int left = 1;
+	public int down = 1;
+	public int up = 1;
 
 	// Use this for initialization
 	void Start () {
@@ -31,9 +37,21 @@ public class CameraController : MonoBehaviour {
 	// Teletransporta o player para o cenario adjacente
 	void teleport(){
 		Vector3 t = Player.player.transform.position;
-		if(t.x < 0) Debug.Log("Left");
-		else if(t.x > scenarioManager.map.width -1) Debug.Log("Right");
-		else if(t.y < 0) Debug.Log("Down");
-		else if(t.y > scenarioManager.map.height -1) Debug.Log("Up");
+		if(t.x < 0){
+			Player.bornPosition = TecnoCop.Direction.right;
+			Application.LoadLevel(left);
+		} 
+		else if(t.x > scenarioManager.map.width -1){
+			Player.bornPosition = TecnoCop.Direction.left;
+			Application.LoadLevel(right);
+		}
+		else if(t.y < 0){
+			Player.bornPosition = TecnoCop.Direction.up;
+			Application.LoadLevel(down);
+		} 
+		else if(t.y > scenarioManager.map.height -1){
+			Player.bornPosition = TecnoCop.Direction.down;
+			Application.LoadLevel(up);
+		} 
 	}
 }

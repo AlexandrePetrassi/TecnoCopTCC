@@ -128,7 +128,7 @@ MonoBehaviour:
     y: -.300000012
     width: .600000024
     height: .5
-  damagePower: 3
+  damagePower: 1
   damageCollider: {fileID: 0}
 --- !u!114 &11483068
 MonoBehaviour:

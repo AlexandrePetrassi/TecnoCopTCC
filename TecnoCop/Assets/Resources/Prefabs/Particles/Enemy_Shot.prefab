@@ -77,6 +77,7 @@ MonoBehaviour:
   speed: 20
   started: 0
   DamagePower: 3
+  hitParticle: {fileID: 148592, guid: 3ebe050545d4d9a498b6d494d1732ad5, type: 2}
 --- !u!212 &21202324
 SpriteRenderer:
   m_ObjectHideFlags: 1

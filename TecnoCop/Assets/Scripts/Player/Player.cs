@@ -11,6 +11,7 @@ namespace TecnoCop{
 		/// </summary>
 		public class Player : ModuleManager, IUpdatable{
 
+			static public Direction bornPosition = Direction.left;
 			private List<PlayerTrigger> myUpdateables = new List<PlayerTrigger>();
 			
 			/// <summary>
@@ -96,5 +97,11 @@ namespace TecnoCop{
 				}
 			}
 		}
+	}
+	public enum Direction{
+		left,
+		right,
+		up,
+		down
 	}
 }
