@@ -268,7 +268,7 @@ MonoBehaviour:
   maxJump: 2
   jumpCount: 0
   jumpPower: 12
-  doubleJumpParticle: {fileID: 192976, guid: 14d8f95f2d7937a4aa3aa88a2cde9ee1, type: 2}
+  doubleJumpParticle: {fileID: 117576, guid: f0d39cd4082d54c4c8c3d2bd0293f095, type: 2}
 --- !u!114 &11496984
 MonoBehaviour:
   m_ObjectHideFlags: 1

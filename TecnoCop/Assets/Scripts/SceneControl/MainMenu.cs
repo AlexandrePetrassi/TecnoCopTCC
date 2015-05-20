@@ -54,7 +54,7 @@ public class MainMenu : MonoBehaviour {
 
 	public void startButton(){
 		TecnoCop.PlayerControl.PlayerDamageManager.playerHealth = 20;
-		Application.LoadLevel("Level1");
+		Application.LoadLevel("Level2");
 	}
 
 	public void ExitGame()
