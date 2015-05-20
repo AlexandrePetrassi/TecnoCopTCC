@@ -172,6 +172,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11425182, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1294327106}
+    - target: {fileID: 11428762, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
+      propertyPath: cooldownIcon
+      value: 
+      objectReference: {fileID: 193365873}
     - target: {fileID: 11496984, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
       propertyPath: cooldownIcon
       value: 
@@ -180,14 +188,6 @@ Prefab:
       propertyPath: chargeIcon
       value: 
       objectReference: {fileID: 125564938}
-    - target: {fileID: 11428762, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
-      propertyPath: cooldownIcon
-      value: 
-      objectReference: {fileID: 193365873}
-    - target: {fileID: 11425182, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 1294327106}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9e1a9e9fc1a3034f97f677cc6f8d9f6, type: 2}
   m_IsPrefabParent: 0

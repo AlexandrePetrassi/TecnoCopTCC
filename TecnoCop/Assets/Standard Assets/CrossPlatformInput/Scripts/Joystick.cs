@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections;
 
 namespace UnityStandardAssets.CrossPlatformInput
 {
@@ -26,7 +25,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		CrossPlatformInputManager.VirtualAxis m_HorizontalVirtualAxis; // Reference to the joystick in the cross platform input
 		CrossPlatformInputManager.VirtualAxis m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
 
-		void Start()
+		void OnEnable()
 		{
 			m_StartPos = transform.position;
 			CreateVirtualAxes();
