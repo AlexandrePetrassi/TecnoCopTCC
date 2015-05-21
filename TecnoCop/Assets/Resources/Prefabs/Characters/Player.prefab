@@ -141,7 +141,7 @@ MonoBehaviour:
   charge: 0
   speedMultiplier: 2.5
   dashTime: .5
-  airDashEnabled: 1
+  airDashEnabled: 0
   dashParticle: {fileID: 117576, guid: f0d39cd4082d54c4c8c3d2bd0293f095, type: 2}
   cdIcon: {fileID: 0}
 --- !u!114 &11429846
@@ -265,7 +265,7 @@ MonoBehaviour:
   cooldown: 0
   chargeable: 0
   charge: 0
-  maxJump: 2
+  maxJump: 1
   jumpCount: 0
   jumpPower: 12
   doubleJumpParticle: {fileID: 117576, guid: f0d39cd4082d54c4c8c3d2bd0293f095, type: 2}

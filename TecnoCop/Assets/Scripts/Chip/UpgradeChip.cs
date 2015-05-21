@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using TecnoCop.Collisions;
 
-public class UpgradeChip : MonoBehaviour {
+public class UpgradeChip : Collideable {
 
 	public float spin = 0.01f;
 	SpriteRenderer spriteRenderer;
@@ -9,15 +10,36 @@ public class UpgradeChip : MonoBehaviour {
 	public float flashCooldown;
 	public float cooldownVariation;
 	public Color flashColor;
+	float initialPosition;
+	public float moveSpeed;
+
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		spriteRenderer = GetComponent<SpriteRenderer>();
 		spriteRenderer.material.SetColor("_FlashColor",flashColor);
+		initialPosition = transform.position.y;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+		rotate();
+		move();
+		unflashSprite();
+		if(lastFlashTime + flashCooldown < Time.time) flashSprite();
+	}
+
+	void move(){
+		if(transform.position.y > initialPosition + 0.5f){
+			if(moveSpeed > 0) moveSpeed *= -1;
+		}
+		if(transform.position.y < initialPosition){
+			if(moveSpeed < 0) moveSpeed *= -1;
+		}
+		transform.position = new Vector3(0,moveSpeed,0) + transform.position;
+	}
+
+	void rotate(){
 		if(transform.localScale.x > 1){
 			transform.localScale = new Vector3(1,1,1);
 			if(spin > 0) spin *= -1;
@@ -27,8 +49,6 @@ public class UpgradeChip : MonoBehaviour {
 			if(spin < 0) spin *= -1;
 		}
 		transform.localScale = transform.localScale + new Vector3(spin,0,0);
-		unflashSprite();
-		if(lastFlashTime + flashCooldown < Time.time) flashSprite();
 	}
 
 	void flashSprite(){

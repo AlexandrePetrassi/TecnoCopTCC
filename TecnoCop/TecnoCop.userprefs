@@ -1,21 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Chip\FastDashChip.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\Dash.cs" Line="74" Column="1" />
-      <File FileName="Assets\Scripts\Camera\CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Scenario\ScenarioManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerDamageManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Pistol.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Player.cs" Line="22" Column="42" />
-      <File FileName="Assets\Scripts\Common\ModuleManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\DamageManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemy\EnemyShot.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Scenario\DamageCollider.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Scenario\Collideable.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Common\Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SceneControl\GameOverController.cs" Line="22" Column="4" />
-      <File FileName="Assets\Scripts\SceneControl\MainMenu.cs" Line="57" Column="34" />
+      <File FileName="Assets\Scripts\Chip\DoubleJumpChip.cs" Line="8" Column="2" />
+      <File FileName="Assets\Scripts\Chip\UpgradeChip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Chip\WallJumpChip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\WallJump.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Chip\AirDashChip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Chip\FastChargeChip.cs" Line="3" Column="1" />
+      <File FileName="Assets\Scripts\Player\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Chip\FastDashChip.cs" Line="16" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
