@@ -1532,6 +1532,52 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 587765286}
+--- !u!1001 &615273652
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.42499828
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228038, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c9fa5fd66d2a34348bb3c8bbb31f2ece, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &639263492
 GameObject:
   m_ObjectHideFlags: 0
@@ -4996,7 +5042,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: e5d0a0059debbbb4c8fdef3c78f7aa1b, type: 3}
-    m_FontSize: 40
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -5006,7 +5052,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Agradecimentos \xE1\nPablo Tadeu\nRodrigo Premazzi\nVictor (Cronus) Moura"
+  m_Text: "Agradecimentos \xE1 \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnniz"
 --- !u!222 &1496849325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5025,8 +5071,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translations:
-  - "Agradecimentos \xE1 \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura"
-  - "Thanks to \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura"
+  - "Agradecimentos \xE1 \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnniz"
+  - "Thanks to \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnniz"
 --- !u!1 &1542292082
 GameObject:
   m_ObjectHideFlags: 0

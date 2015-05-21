@@ -8,7 +8,7 @@ namespace TecnoCop{
 
 			protected SpriteRenderer spriteRenderer;
 			public float lifetime;
-
+			
 			// Use this for initialization
 			void Awake () {
 				spriteRenderer = GetComponent<SpriteRenderer>();

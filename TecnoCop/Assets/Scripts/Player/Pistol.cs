@@ -69,6 +69,7 @@ namespace TecnoCop{
 						chargeIcon.fillAmount = Mathf.Lerp(0, 1, 0);
 					animator.SetTrigger ("Shoot");
 					if(Dash.isDashing()) Player.dash.cancelDash();
+					playSound();
 				}
 			}
 
@@ -79,7 +80,7 @@ namespace TecnoCop{
 					bullet.GetComponent<DamageCollider>().parentGameObject = gameObject;
 					bullet.tag = "Player";
 					animator.SetTrigger ("Shoot");
-
+					playSound(0.5f,0.75f,1);
 				}
 			}
 

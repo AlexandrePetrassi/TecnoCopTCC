@@ -52,6 +52,7 @@ namespace TecnoCop{
 				maxTime = Time.time + dashTime; // Seta o momento no tempo onde dash termina
 				startCooldown();
 				executeDash();
+				playSound();
 			}
 
 			protected override void startCooldown ()

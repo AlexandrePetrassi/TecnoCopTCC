@@ -36,6 +36,7 @@ namespace TecnoCop{
 			override protected void start(){
 				move.setVelocity_y(jumpPower,0);
 				if(++jumpCount > 1) Instantiate(doubleJumpParticle,transform.position,Quaternion.identity); // Incrementa +1 no contador de pulos e instancia o efeito de DoubleJump
+				playSound();
 			}
 
 			override protected void continuous(){

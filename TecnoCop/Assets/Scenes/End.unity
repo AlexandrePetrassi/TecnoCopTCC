@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WaitTime: 100
-  fadeTime: 2
+  fadeTime: 5
   gameOverImage: {fileID: 57654457}
 --- !u!1 &1201387047
 GameObject:

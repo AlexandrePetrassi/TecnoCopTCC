@@ -20,7 +20,7 @@ public class GameOverController : MonoBehaviour {
 	void Update () {
 		if(bornTime + fadeTime < Time.time)
 			gameOverImage.color = gameOverImage.color + new Color(0.025f,0.025f,0.025f);
-		if(bornTime + WaitTime < Time.time || (Input.anyKeyDown && gameOverImage.color.r >= 1)){
+		if(bornTime + WaitTime < Time.time || (Input.GetButtonDown("Click") && gameOverImage.color.r >= 1)){
 			Application.LoadLevel("MainMenu");
 		}
 	}

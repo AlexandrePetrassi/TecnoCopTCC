@@ -1,18 +1,23 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Chip\FastWalkChip.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneControl\MusicSingleton.cs">
     <Files>
-      <File FileName="Assets\Scripts\Chip\DoubleJumpChip.cs" Line="8" Column="40" />
-      <File FileName="Assets\Scripts\Chip\UpgradeChip.cs" Line="15" Column="34" />
-      <File FileName="Assets\Scripts\Chip\WallJumpChip.cs" Line="11" Column="30" />
-      <File FileName="Assets\Scripts\Player\WallJump.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Chip\AirDashChip.cs" Line="12" Column="30" />
-      <File FileName="Assets\Scripts\Chip\FastChargeChip.cs" Line="13" Column="30" />
+      <File FileName="Assets\Scripts\Chip\DoubleJumpChip.cs" Line="17" Column="19" />
+      <File FileName="Assets\Scripts\Chip\UpgradeChip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Chip\WallJumpChip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\WallJump.cs" Line="25" Column="84" />
+      <File FileName="Assets\Scripts\Chip\AirDashChip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Chip\FastChargeChip.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Chip\FastDashChip.cs" Line="12" Column="30" />
-      <File FileName="Assets\Scripts\Chip\FastWalkChip.cs" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\Chip\FastDashChip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Chip\FastWalkChip.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Move.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Effects\MessageFade.cs" Line="19" Column="29" />
+      <File FileName="Assets\Scripts\Effects\MessageFade.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Common\EnergyDrink.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerDamageManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Common\DamageManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\EnemyDamageManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SceneControl\MusicSingleton.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

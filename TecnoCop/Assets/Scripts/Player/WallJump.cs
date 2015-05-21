@@ -40,6 +40,7 @@ namespace TecnoCop{
 				setJumpDirection();
 				setWallJumpSpeed();
 				setEndingTime();
+				playSound();
 			}
 
 			/// <summary>

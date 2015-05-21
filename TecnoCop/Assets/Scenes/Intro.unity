@@ -377,6 +377,52 @@ MonoBehaviour:
     with your most expensive suit!\r\n-MagnaCorp \"\r\nObviously what they want is
     to take possession of Jack's body top technology. Then he took the weapons he
     had at hand and went to the streets to  put an end to the actions of MagnaCorp."
+--- !u!1001 &1132290312
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.42499828
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446280, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228038, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5b6d79dc99af72d43872c882219f3f3b, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e7f7e105e3cdb854fa7a8fe5306a7f85, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1163608834
 GameObject:
   m_ObjectHideFlags: 0
