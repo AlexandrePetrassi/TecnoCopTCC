@@ -59,6 +59,7 @@ MonoBehaviour:
   cooldownVariation: 2
   flashColor: {r: 1, g: 1, b: 1, a: 0}
   moveSpeed: .00999999978
+  messageObject: {fileID: 140590, guid: 44b2e31312576e94bbd8a692fc4ce792, type: 2}
 --- !u!212 &21283080
 SpriteRenderer:
   m_ObjectHideFlags: 1

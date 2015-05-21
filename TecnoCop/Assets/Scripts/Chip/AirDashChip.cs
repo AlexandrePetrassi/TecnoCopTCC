@@ -9,6 +9,7 @@ public class AirDashChip : UpgradeChip {
 		if(collider.gameObject.tag != "Player" || collider.gameObject.transform.parent.tag != "Player") return;
 		Player.dash.airDashEnabled = true;
 		Player.airDashSkill = true;
+		Instantiate(messageObject);
 		Destroy(gameObject);
 	}
 	

@@ -9,6 +9,7 @@ public class DoubleJumpChip : UpgradeChip {
 		if(collider.gameObject.tag != "Player" || collider.gameObject.transform.parent.tag != "Player") return;
 		Player.jump.maxJump = 2;
 		Player.doubleJumpSkill = true;
+		Instantiate(messageObject);
 		Destroy(gameObject);
 	}
 

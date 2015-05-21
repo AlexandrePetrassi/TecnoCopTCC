@@ -12,7 +12,7 @@ public class UpgradeChip : Collideable {
 	public Color flashColor;
 	float initialPosition;
 	public float moveSpeed;
-
+	public GameObject messageObject;
 
 	// Use this for initialization
 	void Awake () {
@@ -59,5 +59,9 @@ public class UpgradeChip : Collideable {
 	void unflashSprite(){
 		float amount = spriteRenderer.material.GetFloat("_FlashAmount") - 0.05f;
 		spriteRenderer.material.SetFloat("_FlashAmount",amount > 0? amount: 0);
+	}
+
+	void showUpgradeMessage(){
+
 	}
 }

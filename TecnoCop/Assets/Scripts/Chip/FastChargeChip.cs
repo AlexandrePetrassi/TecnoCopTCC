@@ -10,6 +10,7 @@ public class FastChargeChip : UpgradeChip {
 		Player.player.GetComponent<Pistol>().cooldown = 0;
 		Player.player.GetComponent<Pistol>().charge = Player.player.GetComponent<Pistol>().charge/3;
 		Player.fastChargeSkill = true;
+		Instantiate(messageObject);
 		Destroy(gameObject);
 	}
 	

@@ -9,6 +9,7 @@ public class FastWalkChip : UpgradeChip {
 		if(collider.gameObject.tag != "Player" || collider.gameObject.transform.parent.tag != "Player") return;
 		((Move)Player.player.move).speed *= 1.5f;
 		Player.fastWalkSkill = true;
+		Instantiate(messageObject);
 		Destroy(gameObject);
 	}
 	

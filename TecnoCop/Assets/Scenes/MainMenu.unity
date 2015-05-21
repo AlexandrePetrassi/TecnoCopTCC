@@ -2092,7 +2092,7 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 575c53d1b157db74cbc8542ea98b1ff1, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: .458823532}
   m_Sprite: {fileID: 21300000, guid: 6df9e77e691b5b34fbd8e304dbe6e008, type: 3}
   m_Type: 0
@@ -4382,7 +4382,7 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 575c53d1b157db74cbc8542ea98b1ff1, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: .360784322}
   m_Sprite: {fileID: 21300000, guid: 6df9e77e691b5b34fbd8e304dbe6e008, type: 3}
   m_Type: 0

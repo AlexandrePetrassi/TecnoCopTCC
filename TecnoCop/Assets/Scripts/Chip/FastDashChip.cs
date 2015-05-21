@@ -9,6 +9,7 @@ public class FastDashChip : UpgradeChip {
 		if(collider.gameObject.tag != "Player" || collider.gameObject.transform.parent.tag != "Player") return;
 		Player.dash.cooldown = Player.dash.cooldown/2;
 		Player.fastDashSkill = true;
+		Instantiate(messageObject);
 		Destroy(gameObject);
 	}
 	
