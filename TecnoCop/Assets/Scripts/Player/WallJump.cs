@@ -22,7 +22,7 @@ namespace TecnoCop{
 			/// O wallJump apenas pode ser realizado caso o personagem esteja grudado na parede
 			/// </summary>
 			protected override bool startCondition(){
-				return WallStick.isWallSticking() && !WallJump.isWallJumping() && Player.wallJumpSkill;
+				return WallStick.isWallSticking() && !WallJump.isWallJumping() && Player.player.wallJumpSkill;
 
 			}
 

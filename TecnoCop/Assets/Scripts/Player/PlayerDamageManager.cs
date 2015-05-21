@@ -20,7 +20,7 @@ namespace TecnoCop{
 				}
 				set {
 					//base.Health = value;
-					playerHealth = value;
+					playerHealth = Mathf.Clamp(value,0,MaxHealth);
 					if(healthBar == null) healthBar = GameObject.FindGameObjectWithTag("Lifebar").GetComponent<Slider>();
 					healthBar.value = value / MaxHealth;
 				}
@@ -36,6 +36,11 @@ namespace TecnoCop{
 				Camera.main.transform.SetParent(null);
 				Instantiate(Resources.Load("Prefabs/Abstract/GameOver"));
 				base.die ();
+			}
+
+			public void heal(float healing){
+				Health += healing;
+				flashSprite(Color.green + Color.gray);
 			}
 		}
 	}

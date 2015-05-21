@@ -76,7 +76,13 @@ namespace TecnoCop{
 			return Time.time<invulnerabilityEndTime;
 		}
 
-		void flashSprite(){
+		protected void flashSprite(){
+			spriteRenderer.material.SetColor("_FlashColor",Color.white);
+			spriteRenderer.material.SetFloat("_FlashAmount",1.0f);
+		}
+
+		protected void flashSprite(Color color){
+			spriteRenderer.material.SetColor("_FlashColor",color);
 			spriteRenderer.material.SetFloat("_FlashAmount",1.0f);
 		}
 

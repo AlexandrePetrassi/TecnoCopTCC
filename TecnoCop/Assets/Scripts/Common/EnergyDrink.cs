@@ -1,19 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
-using TecnoCop.PlayerControl;
 using TecnoCop.Collisions;
+using TecnoCop.PlayerControl;
 
-public class DoubleJumpChip : UpgradeChip {
+public class EnergyDrink : Collideable {
+
+	public float healing = 3;
 
 	public override void collideOnEnter(CollisionDetector collider){
 		if(collider.gameObject.tag != "Player" || collider.gameObject.transform.parent.tag != "Player") return;
-		Player.jump.maxJump = 2;
-		Player.player.doubleJumpSkill = true;
-		Instantiate(messageObject);
+		Player.player.damager.SendMessage("heal",healing);
 		Destroy(gameObject);
 	}
 
-	void Start(){
-		if(Player.player.doubleJumpSkill) Destroy(gameObject);
-	}
 }

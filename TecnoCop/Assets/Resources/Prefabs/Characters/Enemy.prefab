@@ -221,6 +221,8 @@ MonoBehaviour:
   deathPrefab: {fileID: 197664, guid: 27ce2282cdc614b4cb3d52208b612831, type: 2}
   maxHealth: 10
   invulnerabilityTime: -1
+  drop: {fileID: 115848, guid: f56c13e9c6540c1498f336848638fce0, type: 2}
+  dropRate: .5
 --- !u!114 &11491576
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -13,12 +13,12 @@ namespace TecnoCop{
 
 			static public Direction bornPosition = Direction.left;
 			private List<PlayerTrigger> myUpdateables = new List<PlayerTrigger>();
-			public static bool doubleJumpSkill = false;
-			public static bool wallJumpSkill = false;
-			public static bool airDashSkill = false;
-			public static bool fastChargeSkill = false;
-			public static bool fastDashSkill = false;
-			public static bool fastWalkSkill = false;
+			public bool doubleJumpSkill = false;
+			public bool wallJumpSkill = false;
+			public bool airDashSkill = false;
+			public bool fastChargeSkill = false;
+			public bool fastDashSkill = false;
+			public bool fastWalkSkill = false;
 
 			/// <summary>
 			/// Awake this instance.
