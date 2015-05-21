@@ -12,6 +12,8 @@ namespace TecnoCop{
 			[SerializeField]
 			Slider healthBar;
 
+			public AudioClip healthSound;
+
 			public static float playerHealth;
 			public override float Health {
 				get {
@@ -39,8 +41,17 @@ namespace TecnoCop{
 			}
 
 			public void heal(float healing){
+				playSound(1,2,0.5f,healthSound);
 				Health += healing;
 				flashSprite(Color.green + Color.gray);
+			}
+
+			protected virtual void playSound(float min,float max, float vol,AudioClip clip){
+				if(clip == null) return;
+				audioS.clip = clip;
+				audioS.pitch = Random.Range(min,max);
+				audioS.volume = vol;
+				audioS.Play();
 			}
 		}
 	}

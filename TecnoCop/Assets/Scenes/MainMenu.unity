@@ -5052,8 +5052,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Agradecimentos \xE1 \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnna-Maija
-    Rikkinen (Anniz)"
+  m_Text: "Agradecimentos \xE1 \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnniz"
 --- !u!222 &1496849325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5072,10 +5071,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translations:
-  - "Agradecimentos \xE1 \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnna-Maija
-    Rikkinen (Anniz)"
-  - "Thanks to \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnna-Maija
-    Rikkinen (Anniz)"
+  - "Agradecimentos \xE1 \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnniz"
+  - "Thanks to \nPablo Tadeu \nRodrigo Premazzi\nVictor (Cronus) Moura\nAnniz"
 --- !u!1 &1542292082
 GameObject:
   m_ObjectHideFlags: 0

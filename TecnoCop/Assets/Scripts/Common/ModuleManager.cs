@@ -23,6 +23,7 @@ namespace TecnoCop{
 		private DamageManager    myDamager;
 		private Knockback        myKnockback;
 		private MovementManager  myMove;
+		private AudioSource      myAudio;
 
 		public Character updater{
 			get{
@@ -120,6 +121,17 @@ namespace TecnoCop{
 			}
 			set{
 				myMove = value;
+			}
+		}
+
+		public AudioSource audioS{
+			get{
+				if(myAudio == null)
+					myAudio = GetComponent<AudioSource>();
+				return myAudio;
+			}
+			set{
+				myAudio = value;
 			}
 		}
 	}

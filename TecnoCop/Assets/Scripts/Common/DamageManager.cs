@@ -70,6 +70,7 @@ namespace TecnoCop{
 			damage = null;
 			flashSprite();
 			if(Health <= 0) die ();
+			else playSound();
 		}
 
 		public bool isinvulnerable(){
@@ -95,6 +96,24 @@ namespace TecnoCop{
 			if(deathPrefab != null)
 				Instantiate(deathPrefab,transform.position,Quaternion.identity);
 			Destroy(gameObject);
+		}
+
+		
+		public AudioClip sound;
+		public float minPitch;
+		public float maxPitch;
+		public float volume = 0.5f;
+		
+		protected virtual void playSound(){
+			playSound(maxPitch,minPitch,volume);
+		}
+		
+		protected virtual void playSound(float min,float max, float vol){
+			if(sound == null) return;
+			audioS.clip = sound;
+			audioS.pitch = Random.Range(min,max);
+			audioS.volume = vol;
+			audioS.Play();
 		}
 	}
 }

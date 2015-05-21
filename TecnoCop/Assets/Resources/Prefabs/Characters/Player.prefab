@@ -24,6 +24,7 @@ GameObject:
   - 114: {fileID: 11484600}
   - 114: {fileID: 11463014}
   - 114: {fileID: 11496984}
+  - 82: {fileID: 8288628}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -71,6 +72,75 @@ BoxCollider2D:
   m_Offset: {x: .0799999982, y: -.00999999978}
   serializedVersion: 2
   m_Size: {x: 1, y: 1.79999995}
+--- !u!82 &8288628
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167754}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9562994
 Animator:
   serializedVersion: 3
@@ -103,7 +173,12 @@ MonoBehaviour:
   deathPrefab: {fileID: 197664, guid: 27ce2282cdc614b4cb3d52208b612831, type: 2}
   maxHealth: 20
   invulnerabilityTime: 1
+  sound: {fileID: 8300000, guid: 4ea1fec301061674c872c07efa003318, type: 3}
+  minPitch: 1
+  maxPitch: 2
+  volume: .5
   healthBar: {fileID: 0}
+  healthSound: {fileID: 8300000, guid: 578d0ce5e782d6247ac4cdbfe56eb1f5, type: 3}
 --- !u!114 &11427480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,6 +196,10 @@ MonoBehaviour:
   cooldown: 0
   chargeable: 0
   charge: 0
+  sound: {fileID: 0}
+  minPitch: 0
+  maxPitch: 0
+  volume: .5
   speed: 250
 --- !u!114 &11428762
 MonoBehaviour:
@@ -139,6 +218,10 @@ MonoBehaviour:
   cooldown: 2
   chargeable: 0
   charge: 0
+  sound: {fileID: 8300000, guid: 580f526cb57dbca4f9428a21152c5a34, type: 3}
+  minPitch: 1
+  maxPitch: 1.5
+  volume: .5
   speedMultiplier: 2.5
   dashTime: .5
   airDashEnabled: 0
@@ -161,6 +244,10 @@ MonoBehaviour:
   cooldown: 0
   chargeable: 0
   charge: 0
+  sound: {fileID: 0}
+  minPitch: 0
+  maxPitch: 0
+  volume: 0
   slideSpeed: 0
 --- !u!114 &11439478
 MonoBehaviour:
@@ -173,6 +260,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1806bd63af9e5b245871664dfbf1fe24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doubleJumpSkill: 0
+  wallJumpSkill: 0
+  airDashSkill: 0
+  fastChargeSkill: 0
+  fastDashSkill: 0
+  fastWalkSkill: 0
 --- !u!114 &11457284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -236,6 +329,10 @@ MonoBehaviour:
   cooldown: 0
   chargeable: 0
   charge: 0
+  sound: {fileID: 8300000, guid: 580f526cb57dbca4f9428a21152c5a34, type: 3}
+  minPitch: 2
+  maxPitch: 2.5
+  volume: .5
   wallJumpTime: .150000006
 --- !u!114 &11484600
 MonoBehaviour:
@@ -265,6 +362,10 @@ MonoBehaviour:
   cooldown: 0
   chargeable: 0
   charge: 0
+  sound: {fileID: 8300000, guid: 580f526cb57dbca4f9428a21152c5a34, type: 3}
+  minPitch: 2
+  maxPitch: 2.5
+  volume: .5
   maxJump: 1
   jumpCount: 0
   jumpPower: 12
@@ -286,6 +387,10 @@ MonoBehaviour:
   cooldown: 1
   chargeable: 1
   charge: 2
+  sound: {fileID: 8300000, guid: d9456e9413f8b88458a37278f34c7161, type: 3}
+  minPitch: 1
+  maxPitch: 2
+  volume: .75
   normalShot: {fileID: 110770, guid: 7f51f53975d530b47b1ff541534b670b, type: 2}
   chargedShot: {fileID: 137138, guid: 38d7d39a7b4de634ca4d736ef9f2473b, type: 2}
   cdIcon: {fileID: 0}
