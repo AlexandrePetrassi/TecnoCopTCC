@@ -232,7 +232,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22467852, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 22467852, guid: dd589ceff8f617549b820010c0c39f1c, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -395,7 +395,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -508,12 +508,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
   m_IsPrefabParent: 0
---- !u!20 &1441980725
+--- !u!20 &1441980725 stripped
 Camera:
   m_PrefabParentObject: {fileID: 2092054, guid: 2db750e09b288a14a8745bb0d65abf7a,
     type: 2}
   m_PrefabInternal: {fileID: 133769345}
---- !u!1 &1895893330
+--- !u!1 &1895893330 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
   m_PrefabInternal: {fileID: 1238212366}
